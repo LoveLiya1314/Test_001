@@ -1,0 +1,58 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.6" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.autoExternalize": true
+	"i18n.bundleName": "form"
+	"i18n.keyPrefix": "Victory"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp layeredPane1::t::278:x}"
+			"$verticalGroup": "par l {comp layeredPane1::l::318:x}"
+		} ) {
+			name: "this"
+			"title": "白棋胜利了，恭喜恭喜！"
+			"resizable": false
+			add( new FormContainer( "javax.swing.JLayeredPane", new FormLayoutManager( class javax.swing.JLayeredPane ) ) {
+				name: "layeredPane1"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"border": &EtchedBorder0 new javax.swing.border.EtchedBorder( 1, null, null )
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/win2.jpg" )
+				}, new FormLayoutConstraints( null ) {
+					"x": 0
+					"y": 0
+					"width": 280
+					"height": 260
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": new FormMessage( null, "Victory.button1.text" )
+					"font": &Font0 new java.awt.Font( "楷体", 1, 16 )
+					"border": #EtchedBorder0
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+				}, new FormLayoutConstraints( null ) {
+					"x": 0
+					"y": 260
+					"width": 135
+					"height": 60
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": new FormMessage( null, "Victory.button2.text" )
+					"font": #Font0
+					"border": #EtchedBorder0
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
+				}, new FormLayoutConstraints( null ) {
+					"x": 135
+					"y": 260
+					"width": 145
+					"height": 60
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 70, 50 )
+			"size": new java.awt.Dimension( 280, 350 )
+		} )
+	}
+}

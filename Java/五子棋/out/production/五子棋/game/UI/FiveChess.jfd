@@ -1,0 +1,104 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.6" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.autoExternalize": true
+	"i18n.bundleName": "form"
+	"i18n.keyPrefix": "FiveChess"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :::p, comp layeredPane3:::p:593:p, space :::x}}"
+			"$verticalGroup": "par l {seq t {space :0:0:x, comp layeredPane3:::p:474:p}}"
+		} ) {
+			name: "this"
+			"title": "五子棋"
+			"iconImage": new com.jformdesigner.model.SwingIcon( 0, "/image/001.jpg" )
+			"resizable": false
+			"defaultCloseOperation": 3
+			add( new FormContainer( "javax.swing.JLayeredPane", new FormLayoutManager( class javax.swing.JLayeredPane ) ) {
+				name: "layeredPane3"
+			} )
+			menuBar: new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+				name: "menuBar1"
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu5"
+					"text": new FormMessage( null, "FiveChess.menu5.text_2" )
+					"border": &EtchedBorder0 new javax.swing.border.EtchedBorder( 1, null, null )
+					"font": &Font0 new java.awt.Font( "楷体", 0, 16 )
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu13"
+						"text": new FormMessage( null, "FiveChess.menu13.text" )
+						"font": &Font1 new java.awt.Font( "楷体", 0, 16 )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "menu13MouseClicked", true ) )
+					} )
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu15"
+						"text": new FormMessage( null, "FiveChess.menu15.text" )
+						"font": new java.awt.Font( "楷体", 0, 16 )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "menu15MouseClicked", true ) )
+					} )
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu1"
+						"text": new FormMessage( null, "FiveChess.menu1.text_2" )
+						"font": new java.awt.Font( "楷体", 0, 16 )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "menu1MouseClicked", true ) )
+					} )
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu14"
+						"text": new FormMessage( null, "FiveChess.menu14.text" )
+						"font": #Font1
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "menu14MouseClicked", true ) )
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu2"
+					"text": new FormMessage( null, "FiveChess.menu2.text_2" )
+					"border": #EtchedBorder0
+					"font": #Font0
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu8"
+						"text": new FormMessage( null, "FiveChess.menu8.text_2" )
+						"font": &Font2 new java.awt.Font( "楷体", 0, 14 )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "menu8MouseClicked", true ) )
+					} )
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu9"
+						"text": new FormMessage( null, "FiveChess.menu9.text" )
+						"font": #Font2
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "menu9MouseClicked", true ) )
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu3"
+					"text": new FormMessage( null, "FiveChess.menu3.text_2" )
+					"border": #EtchedBorder0
+					"font": #Font0
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu10"
+						"text": new FormMessage( null, "FiveChess.menu10.text" )
+						"font": #Font2
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "menu10MouseClicked", true ) )
+					} )
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu11"
+						"text": new FormMessage( null, "FiveChess.menu11.text_2" )
+						"font": #Font2
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "menu11MouseClicked", true ) )
+					} )
+				} )
+				add( new FormComponent( "javax.swing.JPopupMenu$Separator" ) {
+					name: "separator1"
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu12"
+					"text": new FormMessage( null, "FiveChess.menu12.text_2" )
+					"font": new java.awt.Font( "楷体", 0, 16 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "menu12MouseClicked", true ) )
+				} )
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 45, 15 )
+			"size": new java.awt.Dimension( 595, 530 )
+		} )
+	}
+}
