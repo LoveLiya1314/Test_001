@@ -1,0 +1,14 @@
+package Test;
+class ClassFirst{
+	
+}
+class ClassSecond{
+	
+}
+
+public class Test_001 {
+	public static void main(String arg[]) {
+		System.out.print("Hello,World!");
+	}
+
+}
