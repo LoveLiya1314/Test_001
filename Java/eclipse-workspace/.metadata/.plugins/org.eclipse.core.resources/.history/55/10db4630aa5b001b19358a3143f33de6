@@ -1,7 +1,5 @@
 package Test;
 
-import java.text.SimpleDateFormat;
-
 public class Test_002 {
 
 	public Test_002() {
@@ -17,7 +15,6 @@ public class Test_002 {
 		Object b=new Object();
 		System.out.println(a.equals(b));
 		System.out.println(a.equals(a));
-		String s1="AAAA";
 	}
 
 }

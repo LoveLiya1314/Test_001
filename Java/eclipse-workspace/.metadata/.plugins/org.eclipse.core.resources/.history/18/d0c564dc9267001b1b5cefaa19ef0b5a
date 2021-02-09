@@ -1,0 +1,23 @@
+package Test;
+
+public class Test_003 {
+
+	public Test_003() {
+		// TODO Auto-generated constructor stub
+	}
+	public static void main(String a[]) {
+		new Mythread().run();
+		System.out.println("hello");
+	}
+
+}
+class Mythread extends Thread{
+	@Override 
+	public void run() {
+		for(int i=0;i<100;i++) {
+			if (i%2==0) {
+				System.out.println("i="+i);
+			}
+		}
+	}
+}

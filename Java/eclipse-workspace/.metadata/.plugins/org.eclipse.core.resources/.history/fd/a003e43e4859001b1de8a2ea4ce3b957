@@ -1,0 +1,11 @@
+package Test;
+
+public class Test_MemberClass {
+	private int a=10;
+	class JustInnerClass{
+				 public void fun(){
+					System.out.println("内部类");				
+				}
+			}
+		
+}

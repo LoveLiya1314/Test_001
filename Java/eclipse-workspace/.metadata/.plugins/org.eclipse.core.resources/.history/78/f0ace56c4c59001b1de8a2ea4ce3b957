@@ -1,0 +1,19 @@
+package Test;
+
+public class Test_MemberClass {
+	private int a=10;
+	class JustInnerClass{
+				 public void fun(){
+					System.out.println("内部类");				
+				}
+			}
+	void function() {
+		JustInnerClass aaa=new JustInnerClass();
+		aaa.fun();
+	}
+	public static void main(String args[]) {
+		Test_MemberClass aa=new Test_MemberClass();
+		aa.function());
+	}
+		
+}

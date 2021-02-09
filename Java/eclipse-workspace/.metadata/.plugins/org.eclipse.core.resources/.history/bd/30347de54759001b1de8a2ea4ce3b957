@@ -1,0 +1,9 @@
+package Test;
+
+public class Test_MemberClass {
+
+	public Test_MemberClass() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
