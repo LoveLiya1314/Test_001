@@ -1,0 +1,45 @@
+{"log":"\u001b[2J\u001b[?25l\u001b[m\u001b[H\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\r\n","stream":"stdout","time":"2020-11-20T17:14:25.8936882Z"}
+{"log":"\u001b[H\u001b]0;C:\\Windows\\system32\\cmd.exe\u0000\u0007\u001b[?25h\u001b[?25l\r\n","stream":"stdout","time":"2020-11-20T17:14:25.9096914Z"}
+{"log":"Hello from Docker!\u001b[57X\u001b[57C\r\n","stream":"stdout","time":"2020-11-20T17:14:25.9096914Z"}
+{"log":"This message shows that your installation appears to be working correctly. \r\n","stream":"stdout","time":"2020-11-20T17:14:25.9096914Z"}
+{"log":"\u001b[75X\u001b[75C\r\n","stream":"stdout","time":"2020-11-20T17:14:25.9096914Z"}
+{"log":"To generate this message, Docker took the following steps:\u001b[17X\u001b[17C\r\n","stream":"stdout","time":"2020-11-20T17:14:25.9096914Z"}
+{"log":" 1. The Docker client contacted the Docker daemon.\u001b[25X\u001b[25C\r\n","stream":"stdout","time":"2020-11-20T17:14:25.9096914Z"}
+{"log":" 2. The Docker daemon pulled the \"hello-world\" image from the Docker Hub.  \r\n","stream":"stdout","time":"2020-11-20T17:14:25.9096914Z"}
+{"log":"    (windows-amd64, nanoserver-1809)\u001b[39X\u001b[39C\r\n","stream":"stdout","time":"2020-11-20T17:14:25.9096914Z"}
+{"log":" 3.\u001b[72X\u001b[72C\u001b[9;4H\u001b[?25h\u001b[?25l\r 3. The Docker daemon created a new container from that image which runs the   \r\n","stream":"stdout","time":"2020-11-20T17:14:25.9116894Z"}
+{"log":"    executable that produces the output you are currently reading.\u001b[13X\u001b[13C\r\n","stream":"stdout","time":"2020-11-20T17:14:25.9116894Z"}
+{"log":" 4. The Docker daemon streamed that output to the Docker client, which sent it \r\n","stream":"stdout","time":"2020-11-20T17:14:25.9116894Z"}
+{"log":"    to your terminal.\u001b[58X\u001b[58C\r\n","stream":"stdout","time":"2020-11-20T17:14:25.9116894Z"}
+{"log":"\u001b[79X\u001b[79C\r\n","stream":"stdout","time":"2020-11-20T17:14:25.9116894Z"}
+{"log":"To try something more ambitious, you can run a Windows Server container with:  \r\n","stream":"stdout","time":"2020-11-20T17:14:25.9116894Z"}
+{"log":" PS C:\\\u003e docker run -it mcr.microsoft.com/windows/servercore powershell        \r\n","stream":"stdout","time":"2020-11-20T17:14:25.9116894Z"}
+{"log":"\u001b[79X\u001b[79C\r\n","stream":"stdout","time":"2020-11-20T17:14:25.9116894Z"}
+{"log":"Share images, automate workflows, and more with a free Docker ID:\u001b[14X\u001b[14C\r\n","stream":"stdout","time":"2020-11-20T17:14:25.9116894Z"}
+{"log":" https://hub.docker.com/\u001b[55X\u001b[55C\r\n","stream":"stdout","time":"2020-11-20T17:14:25.9116894Z"}
+{"log":"\u001b[79X\u001b[79C\r\n","stream":"stdout","time":"2020-11-20T17:14:25.9116894Z"}
+{"log":"For more examples and ideas, visit:\u001b[44X\u001b[44C\r\n","stream":"stdout","time":"2020-11-20T17:14:25.9116894Z"}
+{"log":" https://docs.docker.com/get-started/\u001b[42X\u001b[42C\u001b[23;1H\u001b[?25h","stream":"stdout","time":"2020-11-20T17:14:26.1363606Z"}
