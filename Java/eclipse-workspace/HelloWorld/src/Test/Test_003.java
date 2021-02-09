@@ -15,21 +15,23 @@ public class Test_003 {
 		// TODO Auto-generated constructor stub
 	}
 	public static void main(String a[]) {
-		Thread t1=	new Mythread();
-		t1.start();
-		Thread t2=new Mythread() {
-			public void run () {
-				Thread t1=	new Mythread();
-				t1.start();
-				for(int i=0;i<100;i++) {
-					if (i%2==0) {
-						System.out.println("=========="+i+"===============");
+		for(int q=0;q<10;q++) {			
+			Thread t1=	new Mythread();
+			t1.start();
+			Thread t2=new Mythread() {
+				public void run () {
+					Thread t1=	new Mythread();
+					t1.start();
+					for(int i=0;i<100;i++) {
+						if (i%2==0) {
+							System.out.println("=========="+i+"===============");
+						}
 					}
 				}
-			}
-		};
-		t2.start();
-		System.out.println("hello");
+			};
+			t2.start();
+			System.out.println("hello");
+		}
 	}
 
 }

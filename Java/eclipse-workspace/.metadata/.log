@@ -7353,3 +7353,6 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY CSP 2 0 2021-02-09 10:20:38.028
+!MESSAGE Problem getting expression completion focal java element. Expected 1 java element but found: 0
