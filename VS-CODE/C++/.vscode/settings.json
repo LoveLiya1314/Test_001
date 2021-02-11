@@ -1,0 +1,11 @@
+{
+    "editor.snippetSuggestions": "bottom",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "files.associations": {
+        "iostream": "cpp"
+    }
+    ,"code-runner.executorMap": {
+        "cpp": "cd $dir && g++ -std=c++11 $fileName -D LOCAL -o D:/CODE/VS-CODE/C++/out/$fileNameWithoutExt.exe && D:/CODE/VS-CODE/C++/out/$fileNameWithoutExt.exe"
+        },
+    
+}

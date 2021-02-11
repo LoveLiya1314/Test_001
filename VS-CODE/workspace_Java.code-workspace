@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "Java"
+		}
+	],
+	"settings": {
+		"editor.snippetSuggestions": "bottom",
+		"editor.suggest.snippetsPreventQuickSuggestions": false
+	}
+}

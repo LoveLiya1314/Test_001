@@ -1,0 +1,50 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+                ,"C:/mingw-w64/mingw64/bin/g++.exe"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "8.1",
+            "compilerPath": "C:/mingw-w64/mingw64/bin/g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64"
+        },
+        {
+            "name": "win64",
+            "includePath": [
+                "${workspaceFolder}/**"
+                ,"C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "8.1",
+            "compilerPath": "C:/mingw-w64/mingw64/bin/g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": [],
+            "intelliSenseModeIsExplicit": true,
+            "cStandardIsExplicit": true,
+            "cppStandardIsExplicit": true,
+            "compilerPathIsExplicit": true,
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
