@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>腊八节快乐</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section>
+      <div class="box">
+        <dic class="circle">
+          <div class="text">
+            <span style="--x:0">腊</span>
+            <span style="--x:1">八</span>
+            <br />
+            <span style="--x:2">快</span>
+            <span style="--x:3">乐</span>
+          </div>
+        </dic>
+      </div>
+    </section>
+    <script>
+      const bubbles = () => {
+        let count = 300;
+        let section = document.querySelector("section");
+        for (let i = 0; i < count; i++) {
+          let bubble = document.createElement('i');
+          let x = Math.floor(Math.random() * window.innerWidth);
+          y = Math.floor(Math.random() * window.innerHeight);
+
+          let size = Math.random() * 60;
+          bubble.style.left = x + 'px';
+          bubble.style.top = y + 'px';
+          bubble.style.width = size + 'px';
+          bubble.style.height = size + 'px';
+          bubble.style.animationDuration = 5 + size + 's';
+          bubble.style.animationDelay = -size + 's';
+
+          section.appendChild(bubble);
+        }
+      }
+      bubbles()
+</script>
+  </body>
+</html>
