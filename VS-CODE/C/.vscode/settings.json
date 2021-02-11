@@ -1,0 +1,8 @@
+{
+    "editor.snippetSuggestions": "bottom",
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+    ,"code-runner.executorMap": {
+        "c": "cd $dir && g++ -std=c++11 $fileName -D LOCAL -o D:/CODE/VS-CODE/VS_CODE_C+C++/C/out/$fileNameWithoutExt.exe && D:/CODE/VS-CODE/VS_CODE_C+C++/C/out/$fileNameWithoutExt.exe"
+        },
+    
+}
