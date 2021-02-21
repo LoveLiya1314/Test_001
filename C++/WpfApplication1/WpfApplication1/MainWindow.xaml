@@ -12,7 +12,7 @@
         </Grid.Background>
         <Button Name="btn1" Content="好" HorizontalAlignment="Left" Margin="168,326,0,0"
 VerticalAlignment="Top" Width="93" Height="42" Click="Button_Click"/>
-        <Label Name="lab1" Content="绍琴小可爱：" HorizontalAlignment="Left" Margin="1,4,0,0"
+        <Label Name="lab1" Content="小可爱：" HorizontalAlignment="Left" Margin="1,4,0,0"
 VerticalAlignment="Top" Height="59" Width="308" FontSize="36" FontStyle="Italic"/>
         <Label Name="lab2" Content="永远做我的小宝贝好吗&#xD;&#xA;&#x9;"
 HorizontalAlignment="Left" Height="60" Margin="398,200,0,0" VerticalAlignment="Top"
