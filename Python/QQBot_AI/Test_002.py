@@ -1,6 +1,16 @@
 from graia.broadcast import Broadcast
 from graia.application import GraiaMiraiApplication, Session
 from graia.application.message.chain import MessageChain
+from graia.application.message.elements.internal import Plain
+from graia.application.friend import Friend
+from graia.application.group import Group
+from graia.application.entry import *
+from graia.broadcast.entities.event import BaseEvent
+from graia.broadcast.entities.dispatcher import BaseDispatcher
+from graia.broadcast.interfaces.dispatcher import DispatcherInterface
+import asyncio
+
+loop = asyncio.get_event_loop()
 import asyncio
 ###导入关于Tencent AI 的API
 import requests
@@ -12,6 +22,19 @@ import random
 import urllib
 import hashlib
 import base64
+
+
+
+bcc = Broadcast(loop=loop)
+app = GraiaMiraiApplication(
+    broadcast=bcc,
+    connect_info=Session(
+        host="http://localhost:8080", # 填入 httpapi 服务运行的地址
+        authKey="INITKEY6AChRHqy", # 填入 authKey
+        account=2014947669, # 你的机器人的 qq 号
+        websocket=True # Graia 已经可以根据所配置的消息接收的方式来保证消息接收部分的正常运作.
+    )
+)
 
 
 #==============================================================================================================================
@@ -52,8 +75,16 @@ class Robot:
 #==============================================================================================================================
 #==============================================================================================================================
 
+# 接收群消息
+@bcc.receiver("GroupMessage")
+async def group_message_handler(app: GraiaMiraiApplication, message: MessageChain, group: Group,member: Member):
+    if(group.id == 788057443 or group.id == 623311856 ):
+        msg_Group_Get = message.asDisplay()
+        if ("@2014947669" in msg_Group_Get):
+            robot = Robot()
+            await app.sendGroupMessage(group, MessageChain(__root__ = [Plain( robot.tencent(msg_Group_Get) )]))
 
-
+#接收私人消息
 @bcc.receiver("FriendMessage")
 async def friend_message_listener(message: MessageChain, friend: Friend, app: GraiaMiraiApplication):
     print(str(friend.id) + " " + friend.nickname + " " + friend.remark)

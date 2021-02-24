@@ -10,6 +10,12 @@ from graia.broadcast.entities.dispatcher import BaseDispatcher
 from graia.broadcast.interfaces.dispatcher import DispatcherInterface
 import asyncio
 import random
+#import threading
+import requests
+import hashlib
+import os
+import time
+
 # 翻译模块
 def sign(content):
     return hashlib.md5(b"fanyideskweb" + content.encode() + b'0' +   b"Tbh5E8=q6U3EXe+&L[4c@").hexdigest()
@@ -160,24 +166,18 @@ def get_info_df_stock():
     rmsg += "3 -> 平安银行: http://quote.eastmoney.com/sz000001.html"
     rmsg += "4 -> "
 
-
-
-from graia.application.message.elements.internal import Plain
-from graia.application.friend import Friend
-
+# 基础信息
 loop = asyncio.get_event_loop()
-
 bcc = Broadcast(loop=loop)
 app = GraiaMiraiApplication(
     broadcast=bcc,
     connect_info=Session(
-        host="http://localhost:8080", # 填入 httpapi 服务运行的地址
-        authKey="INITKEY6AChRHqy", # 填入 authKey
-        account=2014947669, # 你的机器人的 qq 号
-        websocket=True # Graia 已经可以根据所配置的消息接收的方式来保证消息接收部分的正常运作.
+        host="http://localhost:8080", # httpapi 服务运行的地址
+        authKey="ILOVEI0GAN",         # 在setting.yml中设置的authKey
+        account=1557203539,           # 机器人的 qq 号
+        websocket=True                # Graia 已经可以根据所配置的消息接收的方式来保证消息接收部分的正常运作.
     )
 )
-
 
 songs = {
         "love don't die": "http://music.163.com/#/m/song?id=27867895",
@@ -209,10 +209,16 @@ def find_song(name):
         ret = ''
     return ret
 
-
-#==============================================================================================================================
-#==============================================================================================================================
-#==============================================================================================================================
+def get_system_info():
+    rmsg = "你的系统信息:\n"
+    rmsg += "内核信息:\n"
+    rmsg += os.popen("uname -a").read() + "\n"
+    rmsg += "磁盘信息:\n"
+    rmsg += os.popen("df -h").read() + "\n"
+    rmsg += "进程信息:\n"
+    rmsg += os.popen("top -n 1").read() + "\n"
+    rmsg += "\n"
+    return rmsg
 
 def personal(msg, friend = None, isgroup = False):
     rmsg = "" # 回复的消息
@@ -329,7 +335,7 @@ def personal(msg, friend = None, isgroup = False):
     elif "看雪" in msg and ("二进制" in msg or "pwn" in msg):
         reply = [get_kx_binary_article()]
     elif "看雪" in msg and ("逆向" in msg or "reverse" in msg):
-        reply = [get_kx_reverse_article()]
+        reply = [get_kx_reverse_article()] 
     elif "看雪" in msg and ("区块链" in msg or "blockchain" in msg):
         reply = [get_kx_blockchain_article()]
     elif "看雪" in msg and ("密码学" in msg or "crypto" in msg):
@@ -344,6 +350,8 @@ def personal(msg, friend = None, isgroup = False):
         reply = ["你这是在贬低我，人家是仙女嘛!", "你咋个知道我是美女?", "你是不是喜欢我?"]
     elif "几点" in msg or "时间" in msg:
         reply = ["不告诉你", "现在时间是: " + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) ]
+    elif "博客" in msg and "我" in msg:
+        reply = ["亲！, i0gan的博客链接: http://i0gan.cn"]
     elif "新闻" in msg:
         reply = ["在测试中，后面发给你!"]
     elif "获取系统" in msg:
@@ -399,25 +407,20 @@ def personal(msg, friend = None, isgroup = False):
     rmsg += reply[random.randint(0, len(reply) - 1)]
     return rmsg
 
+# 接收群消息
+@bcc.receiver("GroupMessage")
+async def group_message_handler(app: GraiaMiraiApplication, message: MessageChain, group: Group,member: Member):
+    if(group.id == 788057443 or group.id == 623311856 ):
+        msg = message.asDisplay()
+        rmsg = personal(msg)
+        await app.sendGroupMessage(group, MessageChain(__root__ = [Plain( rmsg )]))
 
-
-
-
-
-
-#==============================================================================================================================
-#==============================================================================================================================
-#==============================================================================================================================
-
-
-# #私人聊天
+# 回复好友事件.
 @bcc.receiver("FriendMessage")
 async def friend_message_listener(message: MessageChain, friend: Friend, app: GraiaMiraiApplication):
     print(str(friend.id) + " " + friend.nickname + " " + friend.remark)
     msg = message.asDisplay()
-    rmsg = personal(msg, friend=friend)
+    rmsg = personal(msg, friend=friend)  
     await app.sendFriendMessage(friend, MessageChain(__root__=[Plain( rmsg )]))
 
 app.launch_blocking()
-
-
