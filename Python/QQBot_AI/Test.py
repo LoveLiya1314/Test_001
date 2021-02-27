@@ -410,7 +410,7 @@ def personal(msg, friend = None, isgroup = False):
 # 接收群消息
 @bcc.receiver("GroupMessage")
 async def group_message_handler(app: GraiaMiraiApplication, message: MessageChain, group: Group,member: Member):
-    if(group.id == 729054809 or group.id == 791894520 or group.id == 702968511):
+    if(group.id == 788057443 or group.id == 623311856):
         msg = message.asDisplay()
         rmsg = personal(msg)
         await app.sendGroupMessage(group, MessageChain(__root__ = [Plain( rmsg )]))
