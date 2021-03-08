@@ -1,4 +1,6 @@
 # -*-coding:UTF-8-*-
+
+
 x=int(input())
 if(x>=0):
     x=x%(24*60)
