@@ -16,14 +16,66 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style type="text/css">
+    div {
+      width: 300px;
+      height: 100px;
+      background-color: blue;
+      background-image: url(./mode/image/pic01.jpg)
+    }
+
+    span,
+    label {
+      color: yellow;
+      font-size: 20;
+
+    }
+  </style>
+
 </head>
+
 <body>
- <form action="" method="post">
-     <label>UserName:</label><input type="text" maxlength="15" size="20" value="please input your name" readonly="true"><br>
-     <label>Password:</label><input type="password" maxlength="15" size="20" value="please input your password" >
- </form>
+  <div>
+    <span>
+      Welcome to the License!
+    </span>
+
+    <form action="" method="post">
+      <table border="1">
+        <tr>
+          <td>
+            <label>UserName:</label>
+          </td>
+          <td>
+            <input type="text" maxlength="15" size="20" value="please input your name" readonly="true"><br>
+
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Password:</label>
+
+          </td>
+          <td>
+            <input type="password" maxlength="15" size="20" value="please input your password">
+
+          </td>
+        </tr>
+        <tr height="20px">
+        </tr>
+        <tr>
+          <td colspan="20" align="center">
+              <input type="submit" value="Submit" ></input>
+              <input type="reset" value="Reset"></input>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
 </body>
+
 </html>
