@@ -8,16 +8,16 @@
 
 <body background="mod/img/bg.png">
     <script>
-    function changepic() {
-        var reads= new FileReader();
-        f=document.getElementById('file').files[0];
-        reads.readAsDataURL(f);
-        reads.onload=function (e) {
-            document.getElementById('show').src=this.result;
-        };
-    }
-</script>
-<h2 align="center">注册账号</h2>
+        function changepic() {
+            var reads = new FileReader();
+            f = document.getElementById('file').files[0];
+            reads.readAsDataURL(f);
+            reads.onload = function (e) {
+                document.getElementById('show').src = this.result;
+            };
+        }
+    </script>
+    <h2 align="center">电影会员注册</h2>
     <hr>
     <form action="ok.html" method="post" enctype="multipart/form-data">
         <table border="2" width="1000px">
@@ -42,12 +42,13 @@
             </tr>
             <tr>
                 <td>截图</td>
-                <td ><input type="file" id="file" class="filepath" onchange="changepic(this)" accept="image/png, image/jpeg, image/gif, image/jpg">
-                    
+                <td><input type="file" id="file" class="filepath" onchange="changepic(this)"
+                        accept="image/png, image/jpeg, image/gif, image/jpg">
+
                 </td>
             </tr>
             <tr>
-                <td colspan="2"align="center"><img  src="" id="show" width="200"></td>
+                <td colspan="2" align="center"><img src="" id="show" width="200"></td>
             </tr>
             <tr>
                 <td>看电影时间</td>
@@ -148,12 +149,12 @@
                 <td><TEXTAREA Name="s1" Rows="5" Cols="50">请输入您的留言
                     </TEXTAREA></td>
             </tr>
-            
+
             <tr>
                 <td></td>
                 <td></td>
             </tr>
-            <tr  align="center">
+            <tr align="center">
                 <td colspan="2">
                     <input type="checkbox" checked><a href="Agreen.html" target="_blank">我已阅读并同意服务条款和隐私政策</a>
                 </td>
@@ -164,7 +165,7 @@
                     <INPUT Type="reset" Value="重置">
                 </td>
             </tr>
-            
+
         </table>
     </form>
 </body>
