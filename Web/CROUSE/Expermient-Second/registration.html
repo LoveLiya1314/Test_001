@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>注册账号</title>
+</head>
+
+<body background="mod/img/bg.png">
+    <script>
+    function changepic() {
+        var reads= new FileReader();
+        f=document.getElementById('file').files[0];
+        reads.readAsDataURL(f);
+        reads.onload=function (e) {
+            document.getElementById('show').src=this.result;
+        };
+    }
+</script>
+<h2 align="center">注册账号</h2>
+    <hr>
+    <form action="ok.html" method="post" enctype="multipart/form-data">
+        <table border="2" width="1000px">
+            <tr>
+                <td>昵称</td>
+                <td><input type="text" placeholder="请输入昵称"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" placeholder="请输入Email"></td>
+            </tr>
+            <tr>
+                <td>性别</td>
+                <td>
+                    <lable><input type="radio" name="gender">男</lable>
+                    <lable><input type="radio" name="gender" checked>女</lable>
+                </td>
+            </tr>
+            <tr>
+                <td>年龄</td>
+                <td><input type="text" placeholder="18" size="1"></td>
+            </tr>
+            <tr>
+                <td>截图</td>
+                <td ><input type="file" id="file" class="filepath" onchange="changepic(this)" accept="image/png, image/jpeg, image/gif, image/jpg">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"align="center"><img  src="" id="show" width="200"></td>
+            </tr>
+            <tr>
+                <td>看电影时间</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">阴历</option>
+                        <option value="">阳历</option>
+                    </select>
+                    <select>
+                        <option value="">2021年</option>
+                        <option value="">2022年</option>
+                        <option value="">2023年</option>
+
+                    </select>
+                    <select>
+                        <option value="">1月</option>
+                        <option value="">2月</option>
+                        <option value="">3月</option>
+                        <option value="">4月</option>
+                        <option value="">5月</option>
+                        <option value="">6月</option>
+                        <option value="">7月</option>
+                        <option value="">8月</option>
+                        <option value="">9月</option>
+                        <option value="">10月</option>
+                        <option value="">11月</option>
+                        <option value="">12月</option>
+                    </select>
+                    <select>
+                        <option value="">1日</option>
+                        <option value="">2日</option>
+                        <option value="">3日</option>
+                        <option value="">4日</option>
+                        <option value="">5日</option>
+                        <option value="">6日</option>
+                        <option value="">7日</option>
+                        <option value="">8日</option>
+                        <option value="">9日</option>
+                        <option value="">10日</option>
+                        <option value="">11日</option>
+                        <option value="">12日</option>
+                        <option value="">13日</option>
+                        <option value="">14日</option>
+                        <option value="">15日</option>
+                        <option value="">16日</option>
+                        <option value="">17日</option>
+                        <option value="">18日</option>
+                        <option value="">19日</option>
+                        <option value="">20日</option>
+                        <option value="">21日</option>
+                        <option value="">22日</option>
+                        <option value="">23日</option>
+                        <option value="">24日</option>
+                        <option value="">25日</option>
+                        <option value="">26日</option>
+                        <option value="">27日</option>
+                        <option value="">28日</option>
+                        <option value="">29日</option>
+                        <option value="">30日</option>
+                        <option value="">31日</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>电影类型</td>
+                <td><input type="checkbox" checked>爱情文艺&nbsp;&nbsp;
+                    <input type="checkbox" checked>科幻&nbsp;&nbsp;
+                    <input type="checkbox" checked>恐怖&nbsp;&nbsp;
+                    <input type="checkbox" checked>魔幻&nbsp;&nbsp;
+                    <input type="checkbox" checked>战争&nbsp;&nbsp;
+                    <input type="checkbox" checked>喜剧&nbsp;&nbsp;
+                </td>
+            </tr>
+            <td>你最喜欢：</td>
+            <td> <INPUT Type="checkbox" Value="on" Name="c1">IT&nbsp;
+                <INPUT Type="checkbox" Value="on" Name="c2">阿凡达 &nbsp;
+                <INPUT Type="checkbox" Value="on" Name="c3">夺命深渊 &nbsp;
+                <INPUT Type="checkbox" Value="on" Name="c4">深海异形 &nbsp;
+                <INPUT Type="checkbox" Value="on" Name="c4">深渊幽灵 &nbsp;
+                <INPUT Type="checkbox" Value="on" Name="c4">泰坦尼克号 &nbsp;
+                <INPUT Type="checkbox" Value="on" Name="c4">真实的谎言 &nbsp;
+                <INPUT Type="checkbox" Value="on" Name="c4">异形 &nbsp;
+                <INPUT Type="checkbox" Value="on" Name="c4">食人鱼 &nbsp;
+            </td>
+            </tr>
+            <tr>
+                <td>最爱影片打分：</td>
+                <td><input name="s" type="range" min="1" max="10" step="1" value="2"></td>
+            </tr>
+            <tr>
+                <td>您希望影迷会召开时间：</td>
+                <td>
+                    <form><input name="uswr date" type="date"></form>
+                </td>
+            </tr>
+            <tr>
+                <td>留言：</td>
+                <td><TEXTAREA Name="s1" Rows="5" Cols="50">请输入您的留言
+                    </TEXTAREA></td>
+            </tr>
+            
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr  align="center">
+                <td colspan="2">
+                    <input type="checkbox" checked><a href="Agreen.html" target="_blank">我已阅读并同意服务条款和隐私政策</a>
+                </td>
+            </tr>
+            <tr align=center>
+                <td colspan=2>
+                    <INPUT Type="submit" Value="提交"> &nbsp;&nbsp;&nbsp;
+                    <INPUT Type="reset" Value="重置">
+                </td>
+            </tr>
+            
+        </table>
+    </form>
+</body>
+
+</html>
