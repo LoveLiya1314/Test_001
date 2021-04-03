@@ -1,9 +1,6 @@
 
 import math
-
 import PIL
-
-
 
 def circle(r):
     print(math.pi*r*r)
@@ -12,7 +9,6 @@ circle(20)
 import sys
 for i in range(0,10):
     print(sys.path[i])
-
 
 from PIL import Image
 from PIL import ImageFilter
