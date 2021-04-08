@@ -1,0 +1,21 @@
+package Test;
+
+public class BlankTest001 {
+ 
+	
+
+}
+ class ArrayList {
+	    private Object[] array;
+	    private int size;
+	    public void add(Object e) {
+	    	;
+	    }
+	    public void remove(int index) {
+	    	;
+	    }
+	    public Object get(int index) {
+	    	;
+			return array;
+	    }
+	}

@@ -5,9 +5,9 @@ public class BlankTest001 {
 		
 		ArrayList<String> strList01 = new ArrayList<String>();	
 		ArrayList<String> strList02 = new ArrayList<String>();
-		/*
-		 * if(strList01 instanceof strList02) { System.out.print("true"); }
-		 */
+		if(strList01 instanceof strList02) {
+			System.out.print("true");
+		}
 	}
 
 }
