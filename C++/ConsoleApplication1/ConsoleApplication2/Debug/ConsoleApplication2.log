@@ -1,9 +1,0 @@
-﻿  Tree_001.cpp
-  Test_002.cpp
-  Legrend.cpp
-d:\code\vs_consoleapplication\helloworld\consoleapplication1\consoleapplication2\legrend.cpp(17): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
-d:\code\vs_consoleapplication\helloworld\consoleapplication1\consoleapplication2\legrend.cpp(18): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
-  test_001.cpp
-  正在生成代码...
-  ConsoleApplication2.vcxproj -> D:\CODE\vs_ConsoleApplication\HelloWorld\ConsoleApplication1\Debug\ConsoleApplication2.exe
-  ConsoleApplication2.vcxproj -> D:\CODE\vs_ConsoleApplication\HelloWorld\ConsoleApplication1\Debug\ConsoleApplication2.pdb (Full PDB)
