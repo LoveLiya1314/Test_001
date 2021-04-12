@@ -1,0 +1,30 @@
+/**************************************************************************************************
+ * Copyright ©  15:23 2021 -4 -12  殇璃墨 All rights reserved.                                       *
+ *    Licensed under the Apache License, Version 2.0 (the "License");                             *
+ *    you may not use this file except in compliance with the License.                            *
+ *    You may obtain a copy of the License at                                                     *
+ *                                                                                                *
+ *      http://www.apache.org/licenses/LICENSE-2.0                                                *
+ *                                                                                                *
+ *    Unless required by applicable law or agreed to in writing, software                         *
+ *    distributed under the License is distributed on an "AS IS" BASIS,                           *
+ *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.                    *
+ *    See the License for the specific language governing permissions and                         *
+ *    limitations under the License.                                                              *
+ * Love 殇璃雪 Forever!                                                                              *
+ *                                                                                                *
+ **************************************************************************************************/
+
+h1{
+    font-family: "隶书";
+    color: #ff8800
+}
+p{
+    background-color: yellow;
+    color: #000000
+}
+.text{ 
+    font-family: "微软雅黑";
+    font-size: 14pt;
+    color: red;
+}
