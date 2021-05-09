@@ -1,0 +1,133 @@
+<!--***********************************************************************************************
+  * Copyright ©  19:57 2021 -5 -5  殇璃墨 All rights reserved.                                       *
+  *    Licensed under the Apache License, Version 2.0 (the "License");                            *
+  *    you may not use this file except in compliance with the License.                           *
+  *    You may obtain a copy of the License at                                                    *
+  *                                                                                               *
+  *      http://www.apache.org/licenses/LICENSE-2.0                                               *
+  *                                                                                               *
+  *    Unless required by applicable law or agreed to in writing, software                        *
+  *    distributed under the License is distributed on an "AS IS" BASIS,                          *
+  *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.                   *
+  *    See the License for the specific language governing permissions and                        *
+  *    limitations under the License.                                                             *
+  * Love 殇璃雪 Forever!                                                                             *
+  *                                                                                               *
+  ***********************************************************************************************-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>再别康桥-图片伪类</title>
+        <style type="text/css">
+        /*全局控制*/
+        body {
+            font-family:"微软雅黑";
+            text-align: center;
+            background-image: url(mod/img/bg.png);
+        }
+        a {
+            text-indent : 2.5em;
+            display: inline-block;
+            font-size: 22px;
+            color:#5E2D00;
+        }
+        a:link, a:visited{text-decoration: none ; }
+        a:hover{
+            text-decoration : underline;
+            color: green;
+        }
+        table{
+            display: none;
+            width: 600px;
+        }
+        span:before {
+            content : url(mod/img/heart.png);
+        }/*添加小图片*/
+        td{
+            line-height: 36px;
+            font-size: 20px;
+            font-family:"微软雅黑";
+            color: #333;
+        }
+        td img{
+            width: 500px;
+        }
+        tr+tr{
+            text-align: left;
+        }
+        em{
+            color:rgb(0,128,0) ;
+            font-weight : bold;
+            font-style : normal;
+        }
+        :target {display : block;}/*链接到的内容部分显示background-color: te5eecc;*/
+        ::selection/*被用户选取的元素部分*/
+        {
+            color:#ff0000;
+        }
+        hr{
+            color:#5E2D00;
+            width: 700px;
+            height: 2;
+            border-top: solid;
+        }
+        </style>
+    </head>
+    <body>
+        <h2>再别康桥</h2>
+        <hr>
+        <nav>
+            <a href="#news1">作品原文</a>
+            <a href="#news2">字词注释</a>
+            <a href="#news3">创作背景</a>
+            <a href="#news4">作者介绍</a>
+        </nav>
+        <hr>
+        <table id="news1" align="center">
+            <tr><td><img src="mod/img/1.jpg"></td></tr>
+            <tr><td><span>轻轻的我走了，正如我轻轻的来;</span></td></tr>
+            <tr><td><span>我轻轻地招手，作别西天的云彩。</span></td></tr>
+            <tr><td><span>那河畔的金柳，是夕阳中的新娘;</span></td></tr>
+            <tr><td><span>波光里的艳影，在我的心头荡漾。</span></td></tr>
+            <tr><td><span>软泥上的<em>青存</em>，油油的在水底<em>招摇</em></span></td></tr>
+            <tr><td><span>在康河的柔波里，我甘心做一条水草!</span></td></tr>
+            <tr><td><span>那榆荫下的一潭，不是清泉，是天上虹;</span></td></tr>
+            <tr><td><span>揉碎在浮藻间，沉淀着彩虹似的梦。</span></td></tr>
+            <tr><td><span>寻梦?撑一支长<em>篙</em>，向青草更青处漫<em>溯</em></span></td></tr>
+            <tr><td><span>满载一船星辉，在星辉斑斓里放歌。</span></td></tr>
+            <tr><td><span>但我不能放歌，悄悄是别离的笙箫;</span></td></tr>
+            <tr><td><span>夏虫也为我沉默，沉默是今晚的康桥!</span></td></tr>
+            <tr><td><span>悄悄的我走了，正如我悄悄的来;</span></td></tr>
+            <tr><td><span>我挥一挥衣袖，不带走一片云彩。</span></td></tr>
+        </table>
+        <table id='news2' align='center'>
+            <tr><td><img src="mod/img/2.jpg" ></td></tr>
+            <tr><td><span><em>青荇(xìng)</em> : 多年生草本植物，叶子略呈圆形,浮在水面,根生在水底，花黄色。</span></td></tr>
+            <tr><td><span><em>招摇</em> : 这里有"逍遥"之意。</span></td></tr>
+            <tr><td><span><em>篙(gāo)</em> : 用竹竿或杉木等制成的撑船工具。</span></td></tr>
+            <tr><td><span><em>溯(sù)</em> : 逆着水流的方向走。</span></td></tr>
+        </table>
+        <table id="news3" align="center">
+            <tr><td><img src="mod/img/3.jpg"></td></tr>
+            <tr><td><span>康桥，即英国著名的剑桥大学所在地。</span></td></tr>
+            <tr><td><span>1920年10月一1922年8月，诗人曾游学于此。</span></td></tr>
+            <tr><td><span>1928年诗人故地重游，归途的中国南海上，他吟成了这首传世之作。</span></td></tr>
+            <tr><td><span>这首诗最初刊登在1928年12月10日《新月》月刊第1卷10号上，后收入《猛虎集》</span></td></tr>
+        </table>
+        <table id="news4" align="center">
+            <tr><td><img src="mod/img/4.jpg"></td></tr>
+            <tr><td><span>徐志摩，(1897年1月15日—1931年11月19日)，现代诗人、散文家。</span></td></tr>
+            <tr><td><span>原名章绽，字桶森，留学英国时改名志摩。</span></td></tr>
+            <tr><td><span>1921年赴英国留学，入剑桥大学当特别生，研究政治经济学。</span></td></tr>
+            <tr><td><span>1923年成立新月社。1924年任北京大学教授。</span></td></tr>
+            <tr><td><span>1926年住光华天学、大夏大学和南京中央天学（1949年更名为南京大学)教授。</span></td></tr>
+            <tr><td><span>1931年11月19日因飞机失事罹难。代表作品有《再别康桥》，《翡冷翠的一夜》。</span></td></tr>
+        </table>
+            
+
+
+
+    </body>
+</html>

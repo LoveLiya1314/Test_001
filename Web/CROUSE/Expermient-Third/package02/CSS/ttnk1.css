@@ -1,0 +1,68 @@
+* {
+    font-family: Microsoft Yahei;
+}
+
+p {
+    text-indent: 2em;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #364261;
+}
+
+#titanic {
+    font-style: italic;
+    font-size: 2.25em;
+    font-weight: 300;
+}
+
+dl .majorActorList a {
+    color: red;
+}
+
+dl .majorActorList dd:nth-child(2):hover {
+    background-color: #DDD;
+}
+
+dl .majorActorList dd:nth-child(2):active {
+    background-color: #999;
+}
+
+.fundamental #director,
+#scriptwriter,
+#filmproducer {
+    font-weight: bold;
+}
+
+.synopsis p {
+    text-align: center;
+    cursor: pointer;
+}
+
+.synopsis p:nth-of-type(even) {
+    background-color: gray;
+}
+
+.highlight p:nth-of-type(odd)::first-letter {
+    font-size: 2em;
+}
+
+.actorList dd {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.actorList .actor_name {
+    font-size: 1.2em;
+}
+
+.actor_name+dd {
+    color: gray;
+    font-size: 0.9em;
+}
+
+.actor_name~dd {
+    font-weight: lighter;
+}
