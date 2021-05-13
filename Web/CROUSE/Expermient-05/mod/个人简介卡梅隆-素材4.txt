@@ -1,0 +1,22 @@
+  <!--top begin-->
+    <div id="top">	
+	<img src="images/title.png" />
+	</div>
+	<!--top end-->
+	<!--nav begin-->
+    <div id="nav">
+	<ul>
+	    <li><a href="#">首页</a></li>
+	 	<li><a href="#">个人简介</a></li>
+	 	<li><a href="#">成长故事</a></li>
+	 	<li><a href="#">感情经历</a></li>	 		
+	 	<li><a href="#">代表作品</a></li>
+	 	<li><a href="#">影迷注册</a></li>
+	</ul>
+	</div>
+	<!--nav end-->
+	<!--position begin-->
+    <div id="pos">
+		<img src="./images/location.png">个人简介<span>&gt;&gt;</span> 卡梅隆
+	</div>
+	<!--position end-->
