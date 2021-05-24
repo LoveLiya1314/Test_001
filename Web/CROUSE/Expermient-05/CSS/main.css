@@ -1,37 +1,93 @@
-/**************************************************************************************************
- * Copyright ©  15:25 2021 -5 -10  殇璃墨 All rights reserved.                                       *
- *    Licensed under the Apache License, Version 2.0 (the "License");                             *
- *    you may not use this file except in compliance with the License.                            *
- *    You may obtain a copy of the License at                                                     *
- *                                                                                                *
- *      http://www.apache.org/licenses/LICENSE-2.0                                                *
- *                                                                                                *
- *    Unless required by applicable law or agreed to in writing, software                         *
- *    distributed under the License is distributed on an "AS IS" BASIS,                           *
- *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.                    *
- *    See the License for the specific language governing permissions and                         *
- *    limitations under the License.                                                              *
- * Love 殇璃雪 Forever!                                                                              *
- *                                                                                                *
- **************************************************************************************************/
+* {
+    margin: 0;
+}
 
 body {
-    margin: 0
-    font-size:16px;
-    font-family:arial,helvetica,sans-serif;
-    height:auto;
-    background-color:#f0f0f0;
+    font-family: arial，helvetica，sans-serif;
+    font-size: 16px;
+    height: auto;
+    background-color: #f0f0f0;
 }
-#nav{
-    weight:1000px;
-    height:45px;
-    margin:0 auto;
-    background-color:#D40B07;
-    font-size:17px;
-}
-#nav li{
-    weight:1000px;
-    height:45px;
-    float:left;
 
+#nav {
+    width: 1000px;
+    height: 45px;
+    margin: 0 auto;
+    background-color: #D40B07;
+    font-size: 17px;
+}
+
+#nav li {
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    float: left;
+    line-height: 45px;
+    list-style-type: none;
+}
+
+#nav li a:link{
+    color:white;
+    text-decoration: none;
+}
+#nav li a:visited {
+    color:white;
+    text-decoration: none;
+}
+#nav li a:hover {
+    text-decoration: underline;
+}
+
+#pos {
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    font-size: 1.3em;
+    font-family: "微软雅黑";
+    color: #4f4f4f;
+}
+
+#pos img {
+    float: left;
+}
+#pos span {
+    font-size: 12px;
+}
+
+#pos p {
+    color: white;
+    font-size: 16px;
+}
+
+
+#content {
+    width: 1000px;
+    background-color: white;
+    padding: 5px;
+    margin: 10px auto;
+    border: 1px solid rgb(197, 207, 245);
+}
+
+#footer {
+    clear: both;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 13px;
+}
+
+#footer .info a:link,
+a:visited {
+    color: #999;
+    text-decoration: none;
+}
+
+#footer .info a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#footer .copy {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: #999;
 }

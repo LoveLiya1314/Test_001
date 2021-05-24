@@ -1,0 +1,23 @@
+#xiyang{
+    color:white;
+    background-color: purple;
+    float:left;
+    width: 50px;
+    height:50px;
+    text-align:center;
+    margin: 0 15px 0px 0;
+}
+#d2{
+    color:white;
+    background-color: purple;
+    float:left;
+    width: 50px;
+    height:50px;
+    text-align:center;
+    margin: 0 15px 0px 15px;
+}
+#descrip img{
+    width: 250px;
+    height: 150px;
+    float:left;
+}

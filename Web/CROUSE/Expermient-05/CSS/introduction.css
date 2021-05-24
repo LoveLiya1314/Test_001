@@ -1,0 +1,69 @@
+#top>img{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+body h1,h3,hr{margin:15px;}
+body h1{font-family:"微软雅黑";
+font-weight:normal;
+}
+#grjj{
+    margin:3px;
+    padding:3px;
+    width:940px;
+    background-color: white;
+}
+#grjj .grjjtp img{
+    float:left;
+    border-radius:15px;
+    width:230px;
+    height: auto;
+}
+#content-nav{
+    width: 960px;
+    height:25px;
+    font-size: 16px;
+    margin:5px;
+    padding:10px;
+}
+#content #content-nav li{
+    float:left;
+    list-style:none;
+}
+#content #content-nav li a{
+    color:white;
+    text-decoration: none;
+    padding-top: 4px;
+    padding-bottom:4px;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    background-color:rgb(28,28,28);
+    display: block;
+    margin-left: 2px;
+}
+#content #content-nav li a:hover{
+    color:black;
+    background-color:rgb(106,106,106);
+}
+#descrip p{
+    text-indent: 2em;
+}
+#descrip  img{
+    float:right;
+    width:200px;
+    height:auto;
+}
+#descrip #ml4 li{
+    list-style-type:none;
+}
+#descrip .xh{
+    padding:1px 5px;
+    font-size: 17px;
+    color:white;
+    background-color:rgb(28,28,28);
+    display:inline-block;
+    font-family: "Microsoft yahei";
+
+}

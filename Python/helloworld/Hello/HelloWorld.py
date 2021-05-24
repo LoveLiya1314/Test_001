@@ -558,27 +558,27 @@ import hashlib
 #         offset += 3 + length
 #     return name, perm
 #
-# def serialize_data(username, permission):
+# def serialize_data(data, permission):
 #     return b"QWB"  + \
 #            b"\xFF" + b"\x01\x00"                         + permission.to_bytes(1, "little") + \
-#            b"\xCC" + len(username).to_bytes(2, "little") + username
+#            b"\xCC" + len(data).to_bytes(2, "little") + data
 #
 # def login():
 #     userdata = get_user_input("Give me your secret login token: ")
 #     sig = userdata[:128]
 #     userdata = userdata[128:]
 #     if verify(userdata, sig):
-#         username, permission = unserialize_data(userdata)
+#         data, permission = unserialize_data(userdata)
 #         if permission == 0xFF:
 #             print(f"{flag}")
 #         else:
-#             print(f"Welcome {username.decode()}!")
+#             print(f"Welcome {data.decode()}!")
 #     else:
 #         print("Wrong login token, please register first.")
 #
 # def reg():
-#     username = get_user_input("Give me your name: ")
-#     userdata = serialize_data(username, 0)
+#     data = get_user_input("Give me your name: ")
+#     userdata = serialize_data(data, 0)
 #     userdata = sign(userdata) + userdata
 #     print(f"Here's your login token: {userdata.hex()}")
 #
@@ -593,5 +593,23 @@ import hashlib
 ###===================================================================================================================================================================###
 ###===================================================================================================================================================================###
 ###===================================================================================================================================================================###
-
-
+class Person:
+    'About Persion Class'   #类文档字符串
+    姓名=""
+    属相="";
+    身高=0;
+    体重=0;
+    def __init__(self, 姓名,属相,身高,体重):
+        self.姓名 = 姓名
+        self.属相 = 属相
+        self.身高=身高
+        self.体重=体重
+    def printname(self):
+        print ("Name : ", self.姓名)
+        if self.属相=="狗":
+            print("狗年大吉!")
+    def sing(self):
+        print("回忆啊我们的青春啊")
+test=Person("233","狗",49,175)
+test.printname()
+test.sing()
