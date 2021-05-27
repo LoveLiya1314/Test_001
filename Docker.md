@@ -14,9 +14,9 @@ nginx的default.conf配置：
 server {
         listen       80 default_server;
         listen       [::]:80 default_server;
-        
+        # 这里改动了，也可以写你的域名
         # 默认网站根目录（www目录）
-        root         /var/www/;
+        root         /var/www/html;
         # Load configuration files for the default server block.
         include /etc/nginx/default.d/*.conf;
         location / {
@@ -34,9 +34,10 @@ server {
         # Fastcgi服务器和程序(PHP,Python)沟通的协议.
         location ~ \.php$ {
             # 设置监听端口
-            fastcgi_pass   php-Zero:9000;
+            fastcgi_pass  php:9000;
             # 设置nginx的默认首页文件(上面已经设置过了，可以删除)
             fastcgi_index  index.php;
+            fastcgi_intercept_errors on;
             # 设置脚本文件请求的路径
             fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
             # 引入fastcgi的配置文件
@@ -44,6 +45,7 @@ server {
         }
     }
 
+    
 Redis的一些配置：
 		docker run --name Redis -p 6379:6379 -d redis
 
