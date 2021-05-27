@@ -15,3 +15,36 @@
  *                                                                                                *
  **************************************************************************************************/
 
+var sum= 10
+for (var i=0; i<100;i++){
+    sum +=i;
+}
+document.write("1-100的和为："+sum+"<br>")
+// 反转字符串函数
+function reverse(s) {
+    var sum= 0
+    for (var i=0; i<s;i++){
+        sum +=i;
+    }
+    return sum;
+}
+
+// 配置按钮回调函数
+function revbtn() {
+    var s = in1.value;
+    ou1.innerText = reverse(s);		// 直接通过id获得对象
+}
+
+// 清除按钮
+function clrbtn() {
+    in1.value = null;				// 
+    in1.innerText = null;			// 直接通过id获得对象
+    ou1.innerText = null;			// 
+}
+
+
+
+var source=document.getElementById(("source"));
+{
+    EventTarget.dataTransfer.setData("text","Hello,World!2333333333333")
+}
