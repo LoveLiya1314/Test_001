@@ -20,12 +20,13 @@
 <head>
     <meta charset="utf-8">
     <title>你好——2021年-Changed by Lambert</title>
-    <meta name="chenc" content="Runoob">
-    <meta name="description" content="时钟 时间 & 钟表 日历">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/font_1191451_h720mljzrsc.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta content="Runoob" name="chenc">
+    <meta content="时钟 时间 & 钟表 日历" name="description">
+    <meta content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0, user-scalable=no"
+          name="viewport">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/font_1191451_h720mljzrsc.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jweixin-1.4.0.js"></script>
@@ -36,7 +37,7 @@
 <div class="key">
     <div class="iocnBox"><i class="iconfont icon-delete"></i></div>
     <div class="empty">清空</div>
-    <textarea placeholder="请在此述说新年寄语..." rows="1" class="van-field__control"></textarea>
+    <textarea class="van-field__control" placeholder="请在此述说新年寄语..." rows="1"></textarea>
     <div class="buts">发送</div>
 </div>
 <div class="today">
@@ -56,7 +57,15 @@
 
 <script src="js/snowy.js"></script>
 <style type="text/css">
-    .snow-container{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:100001;}</style>
+    .snow-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 100001;
+    }</style>
 <div class="snow-container"></div>
 
 </body>

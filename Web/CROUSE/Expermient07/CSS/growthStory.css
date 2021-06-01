@@ -1,0 +1,142 @@
+﻿/*原css设置 开始*/
+h1 {
+    font-size: 28px;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+}
+
+#subhead {
+    color: #444;
+    font-size: small;
+    font-style: italic;
+    font-weight: normal;
+    margin: 5px;
+}
+
+hr {
+    color: #aaa;
+    width: 600px;
+    height: 1px;
+
+}
+
+.art,
+#note {
+    width: 600px;
+    text-indent: 2em;
+    color: #333;
+    font-size: 14px;
+    margin: 10px;
+}
+
+#note {
+    color: #ff6600;
+    font-family: "Microsoft YaHei";
+}
+
+.art p {
+    margin: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-indent: 0em;
+    margin: 10px;
+}
+
+
+#guidance {
+    width: 550px;
+    line-height: 200%;
+    text-align: left;
+    font-size: 13px;
+    font-family: Microsoft YaHei;
+    color: #876;
+}
+
+/*原css设置 结束*/
+#aside,
+#news {
+    float: left;
+}
+
+#news {
+    border: 1px solid #e0d4af;
+    width: 602px;
+    padding: 25px 30px;
+    background-color: white;
+}
+
+.afanda {
+    width: auto;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+
+#aside {
+    margin-left: 0px;
+    height: auto;
+}
+
+.list {
+    width: 270px;
+    border: 1px solid #e0d4af;
+    padding: 24px 30px;
+    height: 300px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.list h1 {
+    float: left;
+    line-height: 26px;
+    font-size: 20px;
+    color: #6d6d6d;
+    margin-right: 8px;
+}
+
+.list h2 {
+    line-height: 18px;
+    font-size: 18px;
+    color: #bcbcbc;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    clear: both;
+}
+
+.list h3 {
+    font-size: 16px;
+    color: #d40b07;
+}
+
+.list img {
+    float: left;
+    margin-right: 7px;
+}
+
+.list p {
+    font-size: 14px;
+    color: #666;
+}
+
+.list ul {
+    margin-top: 20px;
+    clear: both;
+}
+
+.list li {
+    list-style-image: url(../mod/Images/icon.png);
+    color: #444;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.clear {
+    clear: both;
+}
+#logo {
+    width: 1000px;
+    margin: 0px auto;
+}

@@ -1,5 +1,5 @@
 /**************************************************************************************************
- * Copyright ©  14:41 2021 -4 -19  殇璃墨 All rights reserved.                                       *
+ * Copyright ©  15:16 2021 -4 -12  殇璃墨 All rights reserved.                                       *
  *    Licensed under the Apache License, Version 2.0 (the "License");                             *
  *    you may not use this file except in compliance with the License.                            *
  *    You may obtain a copy of the License at                                                     *
@@ -15,38 +15,3 @@
  *                                                                                                *
  **************************************************************************************************/
 
-// 反转字符串函数
-function reverse(s) {
-    var sum= 0
-    for (var i=0; i<s;i++){
-        sum +=i;
-    }
-    return sum;
-}
-
-// 配置按钮回调函数
-function revbtn() {
-    var s = in1.value;
-    ou1.innerText = reverse(s);		// 直接通过id获得对象
-}
-fuction Sum(){
-    var s=1;
-    while(s<=100){
-        for(var i=1;i<s/2;i++){
-
-        }
-    }
-}
-// 清除按钮
-function clrbtn() {
-    in1.value = null;				// 
-    in1.innerText = null;			// 直接通过id获得对象
-    ou1.innerText = null;			// 
-}
-
-
-
-var source=document.getElementById(("source"));
-{
-    EventTarget.dataTransfer.setData("text","Hello,World!2333333333333")
-}

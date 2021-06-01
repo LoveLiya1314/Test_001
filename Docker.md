@@ -45,7 +45,7 @@ server {
         }
     }
 
-    
+
 Redis的一些配置：
 		docker run --name Redis -p 6379:6379 -d redis
 
@@ -55,5 +55,17 @@ PHP：
 	docker run -d -p 9000:9000 --name PHP_Zero -v E:\Docker\www\web:/var/www/html --link dockermysql:dockermysql --link Redis:Redis  php
 
 nginx:
-	docker run --name lnmp  -d -p 80:80 -p 443:443 -v E:\Docker\www\web:/var/www -v E:\Docker\www\config:/etc/nginx/conf.d  --link PHP_Zero:php  nginx
+	docker run --name lnmp  -d -p 80:80 -p 443:443 -v E:\Docker\www\web:/var/www/html -v E:\Docker\www\config:/etc/nginx/conf.d  --link PHP_Zero:php  nginx
 
+docker for windows10
+
+{
+  "registry-mirrors": [
+    "https://s5rf8ud3.mirror.aliyuncs.com"
+  ],
+  "insecure-registries": [],
+  "debug": true,
+  "experimental": true,
+  "graph": "E:\\Docker"
+}
+docekr for linux

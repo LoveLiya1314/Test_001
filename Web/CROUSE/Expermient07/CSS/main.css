@@ -1,0 +1,106 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: auto;
+    background-color: #f0f0f0;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/*导航栏*/
+#nav {
+    width: 1000px;
+    height: 45px;
+    list-style-type: none;
+    background-color: #D40B07;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+#nav li {
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    float: left;
+    line-height: 45px; /*控制文字垂直居中*/
+}
+
+#nav li a:link, #nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    text-decoration: underline;
+}
+
+/*内容部分*/
+#content {
+    width: 1000px;
+    background-color: #fff;
+    padding: 5px;
+    margin: 10px auto;
+    border: 1px solid rgb(197, 207, 245);
+    height: auto;
+}
+
+/*当前位置*/
+#pos {
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    font-size: 1.3em;
+    font-family: "微软雅黑";
+    color: #4F4F4F;
+}
+
+#pos img {
+    float: left; /*使文字和图片出现在一行*/
+}
+
+#pos p {
+    color: #fff;
+    font-size: 16px;
+}
+
+#pos span {
+    font-size: 12px;
+}
+
+/*页脚*/
+#footer {
+    clear: both;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 13px;
+}
+
+.info a:link, .info a:visited {
+    color: #999;
+    text-decoration: none;
+}
+
+.info a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.copy {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: #999;
+}
+
+#logo {
+    width: 1000px;
+    background-color: white;
+    margin: 0px auto;
+}
