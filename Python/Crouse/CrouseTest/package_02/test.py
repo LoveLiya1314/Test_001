@@ -69,8 +69,15 @@ cursor.execute("insert into user (id,name) values ('002', 'xmj')")
 
 cursor.execute("insert into user (id,name) values ('003','peter')")
 
-
-
 cursor.close()
 connect.commit()
 connect.close()
+
+
+conn=sqlite3.connect("test.db")
+cursor=conn.cursor()
+conn.execute("create table test ()")
+cursor.close()
+conn.commit()
+conn.close()
+
