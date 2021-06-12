@@ -1,0 +1,109 @@
+/*#################################################################################################
+ # Copyright ©  23:3 2021 -5 -28  殇璃墨 All rights reserved.                                        #
+ #    Licensed under the Apache License, Version 2.0 (the "License");                             #
+ #    you may not use this file except in compliance with the License.                            #
+ #    You may obtain a copy of the License at                                                     #
+ #                                                                                                #
+ #      http://www.apache.org/licenses/LICENSE-2.0                                                #
+ #                                                                                                #
+ #    Unless required by applicable law or agreed to in writing, software                         #
+ #    distributed under the License is distributed on an "AS IS" BASIS,                           #
+ #    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.                    #
+ #    See the License for the specific language governing permissions and                         #
+ #    limitations under the License.                                                              #
+ # Love 殇璃雪 Forever!                                                                              #
+ #################################################################################################*/
+
+@charset "utf-8";
+body {
+    margin: 0 150px;
+    padding: 0 20px auto 20px;
+    background: url(../mod/Images/WOOYUN-bg2.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+#top {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 5px 6px 4px black;
+    color: #de1111;
+    letter-spacing: 35px;
+}
+
+#nav {
+    border-radius: 35px;
+    background: rgb(54, 53, 53);
+    opacity: 0.6;
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border: dotted wheat 3px;
+}
+
+span {
+    padding: 45px;
+    font-size: 35px;
+}
+
+#main {
+    margin: 20px;
+
+}
+
+#main div {
+    padding: 20px;
+    text-align: left;
+    font-size: 17px;
+    border: dotted 4px wheat;
+    border-radius: 35px;
+    height: 700px;
+    width: 500px;
+    margin: 20px;
+    line-height: 30px;
+    background: ivory;
+    opacity: 0.7;
+    background-clip: padding-box;
+}
+
+#p1, #p3 {
+    float: left;
+}
+
+#p2, #p4 {
+    float: right;
+}
+
+P::first-line {
+    font-size: 30px;
+    color: dodgerblue;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+a:link {
+    color: dodgerblue;
+}
+
+a:hover {
+    color: orangered;
+}
+
+p {
+    font-family: "宋体";
+    color: black;
+    padding: 10px;
+}
+
+#footer {
+    text-align: center;
+    color: black;
+
+}

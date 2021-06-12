@@ -9,11 +9,14 @@
 ################################################################################
 
 from PySide2.QtCore import *
-from PySide2.QtGui import *
 from PySide2.QtWidgets import *
 
 
 class Ui_MainWindow(object):
+    def __init__(self):
+        super(Ui_MainWindow,self).__init__()
+        self.setupUi(self)
+        self.retranslateUi(self)
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
@@ -46,11 +49,13 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
 
         QMetaObject.connectSlotsByName(MainWindow)
+
     # setupUi
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Hello", None))
-        self.ActionToGluttonousSnake.setText(QCoreApplication.translate("MainWindow", u"\u6253\u5f00\u8d2a\u5403\u86c7", None))
+        self.ActionToGluttonousSnake.setText(
+            QCoreApplication.translate("MainWindow", u"\u6253\u5f00\u8d2a\u5403\u86c7", None))
         self.pushButton.setText(QCoreApplication.translate("MainWindow", u"\u8d2a\u5403\u86c7", None))
         self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"\u4e94\u5b50\u68cb", None))
         self.pushButton_3.setText(QCoreApplication.translate("MainWindow", u"\u4fc4\u7f57\u65af\u65b9\u5757", None))
@@ -58,4 +63,7 @@ class Ui_MainWindow(object):
         self.pushButton_5.setText(QCoreApplication.translate("MainWindow", u"\u9000\u51fa", None))
         self.pushButton_6.setText(QCoreApplication.translate("MainWindow", u"\u5173\u4e8e", None))
     # retranslateUi
+
+
+aaa = Ui_MainWindow()
 
