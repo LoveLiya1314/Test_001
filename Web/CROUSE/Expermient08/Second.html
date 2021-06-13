@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>233</title>
+</head>
+<body>
+<script type="text/javascript">
+    var n = []
+
+    function primer_number() {
+        for (i = 2; i < a; i++) {
+            var flag = 0;
+            for (j = 2; j < Math.sqrt(i + 1); j++) {
+                if (i % j == 0) {
+                    flag = 1
+                }
+            }
+            if (flag === 0)
+                n.push(i)
+        }
+        document.write(n)
+    }
+
+    function primer_number1() {
+        var a = Number(document.getElementById("a").value)
+        for (i = 2; i < a; i++) {
+            var flag = 0;
+            for (j = 2; j < Math.sqrt(i + 1); j++) {
+                if (i % j == 0) {
+                    flag = 1
+                }
+            }
+            if (flag === 0)
+                n.push(i)
+        }
+        alert(n)
+    }
+</script>
+<form>
+    请输入一个数：<input id="a" type="text">
+    <br>
+    <input id="bu" onclick="primer_number1()" type="button" value="compute">
+</form>
+
+
+</body>
+</html>

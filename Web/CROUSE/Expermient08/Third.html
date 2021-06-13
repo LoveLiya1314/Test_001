@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>233</title>
+    <style type="text/css">
+        span {
+            color: red;
+        }
+
+        #content {
+            height: auto;
+            margin: auto;
+            width: 200px;
+            position: relative;
+            top: 200px;
+            right: 80px;
+        }
+
+        #username, #password {
+            width: 400px;
+            height: 35px;
+            margin-top: 10px;
+            border: red solid 1px;
+        }
+
+        #but {
+            background: red;
+            border: red;
+            width: 300px;
+            height: 30px;
+            margin: auto;
+            position: relative;
+            left: 60px;
+            border-radius: 100px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<script type="text/javascript">
+    function check() {
+        var default_username = "233";
+        var default_password = "123456";
+        var in1 = document.getElementById("username");
+        var in2 = document.getElementById("password");
+        var password_ = document.getElementById("password").value;
+        if (password_ != default_password) {
+            document.getElementById("s2").innerText = "密码错误"
+        }
+        var username_ = document.getElementById("username").value;
+        if (username_ != default_username) {
+            document.getElementById("s1").innerText = "帐号错误"
+        }
+        in1.onblur = function () {
+            var username_ = document.getElementById("username").value;
+            if (username_ != default_username) {
+                document.getElementById("s1").innerText = "帐号错误"
+            }
+        }
+        in1.onfocus = function () {
+            document.getElementById("s1").innerText = ""
+        }
+        in2.onblur = function () {
+            var password_ = document.getElementById("password").value;
+            if (password_ != default_password) {
+                document.getElementById("s2").innerText = "密码错误"
+            }
+        }
+        in2.onfocus = function () {
+            document.getElementById("s2").innerText = ""
+        }
+        if (password_ == default_password && username_ == default_username) {
+            window.location = "Second.html"
+        }
+
+    }
+
+</script>
+
+<div id="content">
+    <div style="width: 80px">Username:</div>
+    <input id="username" type="text">
+    <span id="s1"></span><br>
+    <div style="width: 80px">Password:</div>
+    <input id="password" type=text">
+    <span id="s2"></span><br>
+    <input id="but" onclick="check()" type="button" value="Login">
+</div>
+</body>
+</html>

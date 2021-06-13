@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>233</title>
+</head>
+<body>
+<script type="text/javascript">
+    var n = []
+
+    function primer_number() {
+        var a = Number(prompt("Please enter a number"))
+        for (i = 2; i < a; i++) {
+            var flag = 0;
+            for (j = 2; j < Math.sqrt(i + 1); j++) {
+                if (i % j == 0) {
+                    flag = 1
+                }
+            }
+            if (flag === 0)
+                n.push(i)
+        }
+        document.write(n)
+    }
+
+    function primer_number1() {
+        var a = Number(prompt("Please enter a number"))
+        for (i = 2; i < a; i++) {
+            var flag = 0;
+            for (j = 2; j < Math.sqrt(i + 1); j++) {
+                if (i % j == 0) {
+                    flag = 1
+                }
+            }
+            if (flag === 0)
+                n.push(i)
+        }
+        document.write(n)
+    }
+
+    primer_number()
+</script>
+</body>
+</html>

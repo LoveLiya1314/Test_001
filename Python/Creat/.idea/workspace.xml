@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b9ab2f6-61b8-49ef-a85b-e08ea4906de3" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/GUI_W/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI_W/Weather.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI_W/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame-master/About.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame-master/SSS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/CROUSE/Expermient08/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/CROUSE/Expermient08/.idea/Expermient08.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Creat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Creat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/GluttonousSnake/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame-master/GluttonousSnake/GluttonousSnake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/Gomoku/ManAndMachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame-master/Gomoku/Gomoku.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/mineblock.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/0.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/1.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/2.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/3.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/4.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/5.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/6.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/7.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/a.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/ask.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/blank.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/blood.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/error.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/face_fail.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/face_normal.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/face_success.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/flag.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/mine.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/扫雷.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/Start.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/Start.ui" beforeDir="false" afterPath="$PROJECT_DIR$/pygame-master/Start.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/Tetris/blocks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/Tetris/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/Tetris/俄罗斯方块.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1th8Np27e69VuneBuhZLyF3as2x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/Python/Python39/Scripts/pyside2-uic.exe" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CODE\GitHub\ComputerTeconlogyExpermient\Python\Creat\pygame-master" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.SSS">
+    <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Creat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/123.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MineSweeping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Creat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pygame-master/MineSweeping" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\CODE\GitHub\ComputerTeconlogyExpermient\Python\Creat\pygame-master\MineSweeping\MineSweeping.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SSS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Creat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pygame-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pygame-master/SSS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Creat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pygame-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pygame-master/Start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tetris (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Creat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pygame-master/Tetris" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pygame-master/Tetris/Tetris.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.SSS" />
+        <item itemvalue="Python.Tetris (1)" />
+        <item itemvalue="Python.Start" />
+        <item itemvalue="Python.123" />
+        <item itemvalue="Python.MineSweeping" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="2b9ab2f6-61b8-49ef-a85b-e08ea4906de3" name="默认变更列表" comment="" />
+      <created>1623209923564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623209923564</updated>
+      <workItem from="1623209924894" duration="511000" />
+      <workItem from="1623305975551" duration="3333000" />
+      <workItem from="1623309532249" duration="614000" />
+      <workItem from="1623417880743" duration="310000" />
+      <workItem from="1623509415482" duration="692000" />
+      <workItem from="1623549119539" duration="2183000" />
+      <workItem from="1623572111417" duration="3567000" />
+      <workItem from="1623576047526" duration="5173000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Creat$ManAndMachine.coverage" NAME="ManAndMachine 覆盖结果" MODIFIED="1623210034535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master/Gomoku" />
+    <SUITE FILE_PATH="coverage/Creat$main.coverage" NAME="main 覆盖结果" MODIFIED="1623209983446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master/GluttonousSnake" />
+    <SUITE FILE_PATH="coverage/Creat$123.coverage" NAME="123 覆盖结果" MODIFIED="1623418192722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Creat$main__1_.coverage" NAME="main (1) 覆盖结果" MODIFIED="1623307425443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master/MineSweeping" />
+    <SUITE FILE_PATH="coverage/Creat$Tetris__1_.coverage" NAME="Tetris (1) 覆盖结果" MODIFIED="1623576488010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master/Tetris" />
+    <SUITE FILE_PATH="coverage/Creat$SSS.coverage" NAME="SSS 覆盖结果" MODIFIED="1623581699267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master" />
+    <SUITE FILE_PATH="coverage/Creat$Start.coverage" NAME="Start 覆盖结果" MODIFIED="1623564193584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master" />
+    <SUITE FILE_PATH="coverage/Creat$main__2_.coverage" NAME="main (2) 覆盖结果" MODIFIED="1623210211415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master/Tetris" />
+  </component>
+</project>
