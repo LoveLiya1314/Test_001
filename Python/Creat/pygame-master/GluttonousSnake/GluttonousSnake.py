@@ -88,7 +88,7 @@ def main():
         for event in pygame.event.get():  # 事件处理循环
             if event.type == QUIT:  # 如果事件是玩家点击了右上角"X"关闭窗口
                 pygame.quit()  # 停止运行Pygame
-       
+                # sys.exit()
         # for event in pygame.event.get():
         #     if event.type == QUIT:
         #         sys.exit()

@@ -5,45 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b9ab2f6-61b8-49ef-a85b-e08ea4906de3" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/GUI_W/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI_W/Weather.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI_W/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pygame-master/About.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pygame-master/SSS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Web/CROUSE/Expermient08/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Web/CROUSE/Expermient08/.idea/Expermient08.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Creat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Creat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/123.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/GluttonousSnake/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame-master/GluttonousSnake/GluttonousSnake.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/Gomoku/ManAndMachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame-master/Gomoku/Gomoku.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/mineblock.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/0.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/1.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/2.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/3.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/4.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/5.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/6.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/7.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/8.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/a.TTF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/ask.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/blank.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/blood.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/error.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/face_fail.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/face_normal.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/face_success.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/flag.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/mine.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/MineSweeping/resources/扫雷.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/Start.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/Start.ui" beforeDir="false" afterPath="$PROJECT_DIR$/pygame-master/Start.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/Tetris/blocks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/Tetris/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame-master/Tetris/俄罗斯方块.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-master/GluttonousSnake/GluttonousSnake.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame-master/GluttonousSnake/GluttonousSnake.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +190,7 @@
       <workItem from="1623509415482" duration="692000" />
       <workItem from="1623549119539" duration="2183000" />
       <workItem from="1623572111417" duration="3567000" />
-      <workItem from="1623576047526" duration="5173000" />
+      <workItem from="1623576047526" duration="5590000" />
     </task>
     <servers />
   </component>
@@ -244,7 +206,7 @@
     <SUITE FILE_PATH="coverage/Creat$123.coverage" NAME="123 覆盖结果" MODIFIED="1623418192722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Creat$main__1_.coverage" NAME="main (1) 覆盖结果" MODIFIED="1623307425443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master/MineSweeping" />
     <SUITE FILE_PATH="coverage/Creat$Tetris__1_.coverage" NAME="Tetris (1) 覆盖结果" MODIFIED="1623576488010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master/Tetris" />
-    <SUITE FILE_PATH="coverage/Creat$SSS.coverage" NAME="SSS 覆盖结果" MODIFIED="1623581699267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master" />
+    <SUITE FILE_PATH="coverage/Creat$SSS.coverage" NAME="SSS 覆盖结果" MODIFIED="1623581753557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master" />
     <SUITE FILE_PATH="coverage/Creat$Start.coverage" NAME="Start 覆盖结果" MODIFIED="1623564193584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master" />
     <SUITE FILE_PATH="coverage/Creat$main__2_.coverage" NAME="main (2) 覆盖结果" MODIFIED="1623210211415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master/Tetris" />
   </component>
