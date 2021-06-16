@@ -1,0 +1,132 @@
+/*#################################################################################################
+ # Copyright ©  23:5 2021 -5 -28  殇璃墨 All rights reserved.                                        #
+ #    Licensed under the Apache License, Version 2.0 (the "License");                             #
+ #    you may not use this file except in compliance with the License.                            #
+ #    You may obtain a copy of the License at                                                     #
+ #                                                                                                #
+ #      http://www.apache.org/licenses/LICENSE-2.0                                                #
+ #                                                                                                #
+ #    Unless required by applicable law or agreed to in writing, software                         #
+ #    distributed under the License is distributed on an "AS IS" BASIS,                           #
+ #    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.                    #
+ #    See the License for the specific language governing permissions and                         #
+ #    limitations under the License.                                                              #
+ # Love 殇璃雪 Forever!                                                                              #
+ #################################################################################################*/
+
+@charset "utf-8";
+body {
+    margin: 0 150px;
+    padding: 0 20px auto 20px;
+    background: url(../mod/Images/WOOYUN-bg-4.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 5px 6px 4px black;
+    color: #060b55;
+    letter-spacing: 35px;
+}
+
+td {
+    background: mistyrose;
+    border: 2px;
+    border-radius: 20px;
+    opacity: 0.6;
+    column-span: 10px;
+}
+
+#nav {
+    margin: 40px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+span {
+    padding: 45px;
+    font-size: 35px;
+}
+
+td:hover {
+    text-align: center;
+    font-size: 50px;
+    background: navy;
+    border: 2px solid lightseagreen;
+}
+
+#main {
+    text-indent: 2em;
+    font-family: "宋体";
+    padding: 20px;
+    text-align: left;
+    font-size: 17px;
+    border: outset 2px wheat;
+    border-radius: 60px 20px;
+    height: 4050px;
+    width: 1150px;
+    margin: 20px;
+    line-height: 30px;
+    background: white;
+    opacity: 0.7;
+}
+
+.img1, .img2 {
+    width: 400px;
+    height: 300px;
+    border-radius: 35px;
+    opacity: 0.7;
+}
+
+.img1 {
+    margin: 35px;
+    padding: 20px;
+    float: left;
+}
+
+.img2 {
+    margin: 30px;
+    float: right;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+.cite1 {
+    text-align: center;
+    font-size: 25px;
+    color: #f8f8f8;
+    background: linear-gradient(#000000, #423b45);
+    border-radius: 10px;
+}
+
+.cite {
+    font-size: 25px;
+    color: #29272a;
+    background: linear-gradient(#ffffff, #000000);
+    border-radius: 10px;
+}
+
+a {
+    color: #403a42;
+    text-decoration: none;
+}
+
+a:link {
+    color: dodgerblue;
+}
+
+a:hover {
+    color: orangered;
+}
+
+#footer {
+    background: gray;
+    opacity: 0.8;
+    border-radius: 10px;
+    text-align: center;
+    color: lightgrey;
+}

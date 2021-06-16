@@ -1,0 +1,203 @@
+<!--###############################################################################################
+  # Copyright ©  8:58 2021 -6 -15  殇璃墨 All rights reserved.                                       #
+  #    Licensed under the Apache License, Version 2.0 (the "License");                            #
+  #    you may not use this file except in compliance with the License.                           #
+  #    You may obtain a copy of the License at                                                    #
+  #                                                                                               #
+  #      http://www.apache.org/licenses/LICENSE-2.0                                               #
+  #                                                                                               #
+  #    Unless required by applicable law or agreed to in writing, software                        #
+  #    distributed under the License is distributed on an "AS IS" BASIS,                          #
+  #    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.                   #
+  #    See the License for the specific language governing permissions and                        #
+  #    limitations under the License.                                                             #
+  # Love 殇璃雪 Forever!                                                                             #
+  ###############################################################################################-->
+
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <meta content="telphone=no, email=no" name="format-detection"/>    <!--忽略页面中的数字识别为电话，忽略email识别-->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+          name="viewport">
+    <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="pc, mobile" name="applicable-device">
+    <meta content="webkit" name="renderer"><!--启用360浏览器的极速模式(webkit)-->
+    <meta content="320" name="MobileOptimized"><!--微软的老式浏览器-->
+    <meta content="portrait" name="x5-orientation"><!--QQ强制竖屏-->
+    <meta content="true" name="x5-fullscreen"><!--QQ强制全屏-->
+    <meta content="no" name="msapplication-tap-highlight"/>
+    <meta content="WOOYUN" name="keywords">
+    <meta content="致敬-WOOYUN" name="description">
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="#ff3b30" name="theme-color">
+    <meta content="yes" name="apple-mobile-web-app-capable"> <!--是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏  -->
+    <meta content="default" name="apple-mobile-web-app-status-bar-style">
+    <meta content="WOOYUN" name="apple-mobile-web-app-title">
+    <title>WOOYUN：前言</title>
+    <link href="css/First.css" rel="stylesheet" type="text/css">
+    <style>
+        @import url("css/style.css");
+    </style>
+</head>
+
+<body>
+<div class="box" id="box">
+    <div class="box-in"></div>
+</div>
+<script>
+    var timer = null;
+    box.onclick = function () {
+        cancelAnimationFrame(timer);
+        timer = requestAnimationFrame(function fn() {
+            var oTop = document.body.scrollTop || document.documentElement.scrollTop;
+            if (oTop > 0) {
+                document.body.scrollTop = document.documentElement.scrollTop = oTop - 50;
+                timer = requestAnimationFrame(fn);
+            } else {
+                cancelAnimationFrame(timer);
+            }
+        });
+    }
+</script>
+<div id="body">
+    <div id="nav">
+        <h1>WOOYUN：前言</h1>
+        <nav>
+            <span><a href="">前言</a></span>
+            <span><a href="Second.html">曾经,我们巍然伫立</a></span>
+            <span><a href="Third.html">消失的光芒</a></span>
+            <span><a href="Fouth.html">回忆</a></span>
+            <span><a href="Fifth.html">仅剩的留念</a></span>
+        </nav>
+    </div>
+
+    <div id="main">
+        <div id="p1">
+            <p>
+                乌云网（WooYun）<br>
+                是一个位于中国大陆的资安情报网站，于2010年5月由方小顿和孟德联合创立。
+                该网站是一个介于企业与安全研究者之间的安全漏洞报告平台。
+                2016年7月20日凌晨，乌云网突然被关闭，仅显示一张“乌云及相关服务升级公告”的图片。
+                截至2020年8月25日，该网站依旧展示升级公告，无法访问。</p>
+            <img height="389px" src="mod/Images/WOOYUN-001.jpg" title="WOOYUN" width="600px"/>
+            <p>
+                曾经<br>
+                有高达5000名白客入驻。
+                乌云网的网站定位是成为“自由平等的”的漏洞报告平台。
+                为计算机厂商和安全研究者提供技术上的各种参考以及漏洞bug的修复。
+                所探讨的技术也仅是各自领域内所接触的各类技术BUG，并通过网上互动交流促进软件开发技术的发展。
+
+            </p>
+            <p>
+                自由平等的漏洞报告平台<br>
+                《杭州日报》称其为盖在中国众多企业头上名副其实的一朵“乌云”，
+                《澎湃新闻》称其为“中国最大的漏洞报告平台”，
+                《香港自由新闻》称其为“中国最大的道德黑客社区”，
+                公共政策智库美国外交关系协会称其为“中国最大的计算机漏洞报告平台”，
+                《国际财经时报》英国版称其为“中国最大的白帽黑客社区之一”。
+                中国大陆媒体《电脑报》报道，
+                乌云网的成名战发生在2011年年底。当年11月，
+                该网站根据白帽子提供的材料，
+                接连披露网易、支付宝、京东商城等中国互联网巨头存在高危漏洞，
+                12月29日更是指出支付宝1500万至2500万用户资料被泄露。
+                12月30日，乌云网发布声明宣布暂时关站，对系统做短暂的升级，
+                公告称，“最近频繁披露的安全事件及带来的影响表明，一方面我们企业的整体安全建设还不够完善，但是同样反馈出我们乌云平台和社区无论是沟通渠道还是反馈及响应机制都存在一些严重的问题”。
+                此后，该网站又相继披露出酒店开房信息泄露、支付宝漏洞、搜狗浏览器泄露用户数据、腾讯7000万QQ群用户数据泄露等。
+            </p>
+
+        </div>
+        <div id="p2">
+            <p>贾伟事件
+                2011年4月，乌云网白帽子贾伟在京东商城购物时，无意间发现了京东存在技术漏洞，该漏洞可以获取京东所有客户账号、密码及个人信息。
+                随即，他将这一情况反馈给京东技术人员，这位技术人员主动联系贾伟，表示将在第一时间内修复漏洞。
+                贾伟连续跟踪观察了8个月后，发现这一漏洞并没有被修复。
+                于是，他便把漏洞发布到乌云平台，京东也验证了自己存在的漏洞，并以官方身份进行了漏洞确认。
+                但京东的技术人员依然无法确认具体的漏洞所在，贾伟表示只要聘请他为高级技术顾问，并支付约240万元劳务费，就可以为京东商城修复这一漏洞。
+                不料，京东商城以网络被入侵并被“敲诈勒索”为由，向北京朝阳区公安局报警，12月30日，贾伟被警方带走，一个多月后，他被保释出狱。
+            <p>
+                袁炜事件[编辑]
+                2015年12月，乌云网白帽子袁炜发现世纪佳缘的系统存在漏洞，并在乌云网上提交了这一漏洞。
+                世纪佳缘确认并修复了漏洞，并向乌云网和袁炜致谢。
+                但事后，世纪佳缘统计发现，有900多条数据被攻击者获取。
+                出于对信息安全的担忧，世纪佳缘选择报警。
+                警方调查后发现只有袁炜一个人涉嫌此案。
+                最后，袁炜被检察院公诉，2016年4月被批准逮捕。
+                这一事件被外界称为“袁炜事件”。这一事件震动了中国信息安全界，随之而来的是各界对白帽子行为边界的激烈讨论。
+                一些网络安全业内人士和法律人士称，袁炜事件或将成为中国互联网安全史上一个标志性的“分水岭”。
+            </p>
+            <p>
+                关站“升级”
+                主条目：乌云网事件
+                2016年7月20日凌晨，乌云官网突然被关闭，仅显示一张“乌云及相关服务升级公告”的图片， 并附言 “与其听信谣言，不如相信乌云”。
+                据外界推测可能是内部整顿。
+                《财新网》援引消息人士称，包括创始人方小顿在内的乌云网数名团队成员7月19日被警方带走。
+                但前乌云合伙人杨蔚辟谣称是谣言，并表示“谣言止于智者”。
+                7月19日晚，新浪微博大V“互联网那些事”爆料称乌云网被连锅端，高层全部被警方拷走。
+                截至2020年8月18日，该网站依旧展示升级公告，无法访问。
+            </p>
+        </div>
+    </div>
+    <h1 class="foot_title">Contact With Me</h1>
+    <div class="foot_info_main">
+        <ul>
+            <li class="github_items">
+                <a href="https://github.com/LoveLiya1314" target="_blank">GitHub</a>
+            </li>
+            <li class="google_items">
+                <a href="https://myaccount.google.com/" target="_blank">Google</a>
+            </li>
+            <li class="twitter_items">
+                <a href="https://twitter.com/LambertLiya3" target="_blank">Twitter</a>
+            </li>
+            <li class="facebook_items">
+                <a href="https://www.facebook.com/profile.php?id=100021561109523" target="_blank">FaceBook</a>
+            </li>
+            <li class="weibo_items">
+                <a href="#" target="_blank">微博</a>
+            </li>
+            <li class="zhihu_items">
+                <a href="#" target="_blank">知乎</a>
+            </li>
+            <li class="web_items">
+                <a href="http://loveliyaforever.club/" target="_blank">网站</a>
+            </li>
+            <li class="email_items">
+                <a href="mailto:lambertliya1314@gmail.com" target="_blank">邮箱</a>
+            </li>
+            <div class="clear"></div>
+        </ul>
+
+        <div class="qrcode_div">
+                    <span class="wx">
+                        <a class="wx_icon"></a>
+                        <img class="wx_img" src="mod/Images/scareen.png">
+                    </span>
+            <span class="github">
+                        <a class="github_icon"></a>
+                        <img class="github_img" src="mod/Images/github.gif">
+                    </span>
+            <span class="qq">
+                        <a class="qq_icon"></a>
+                        <img class="qq_img" src="mod/Images/scareen.png">
+                    </span>
+        </div>
+    </div>
+    <div id="footer">
+        <h3>©2021 Pwoerd By
+            <a href="http://loveliyaforever.club/" title="IceEnd">殇璃雪</a>
+        </h3>
+        <footer>&copy;图片及数据均来自网络</footer>
+    </div>
+
+</div>
+
+<script language="JavaScript">
+    document.oncontextmenu = new Function("event.returnValue=false;");
+    document.onselectstart = new Function("event.returnValue=false;");
+</script>
+</body>
+</html>

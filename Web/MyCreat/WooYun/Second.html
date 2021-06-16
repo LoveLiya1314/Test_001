@@ -1,0 +1,216 @@
+<!--###############################################################################################
+  # Copyright ©  8:58 2021 -6 -15  殇璃墨 All rights reserved.                                       #
+  #    Licensed under the Apache License, Version 2.0 (the "License");                            #
+  #    you may not use this file except in compliance with the License.                           #
+  #    You may obtain a copy of the License at                                                    #
+  #                                                                                               #
+  #      http://www.apache.org/licenses/LICENSE-2.0                                               #
+  #                                                                                               #
+  #    Unless required by applicable law or agreed to in writing, software                        #
+  #    distributed under the License is distributed on an "AS IS" BASIS,                          #
+  #    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.                   #
+  #    See the License for the specific language governing permissions and                        #
+  #    limitations under the License.                                                             #
+  # Love 殇璃雪 Forever!                                                                             #
+  ###############################################################################################-->
+
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telphone=no, email=no"/>    <!--忽略页面中的数字识别为电话，忽略email识别-->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" name="viewport">
+    <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="pc, mobile" name="applicable-device">
+    <meta content="webkit" name="renderer"><!--启用360浏览器的极速模式(webkit)-->
+    <meta content="320" name="MobileOptimized"><!--微软的老式浏览器-->
+    <meta name="x5-orientation" content="portrait"><!--QQ强制竖屏-->
+    <meta name="x5-fullscreen" content="true"><!--QQ强制全屏-->
+    <meta content="no" name="msapplication-tap-highlight"/>
+    <meta content="WOOYUN" name="keywords">
+    <meta content="致敬-WOOYUN" name="description">
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="#ff3b30" name="theme-color">
+    <meta content="yes" name="apple-mobile-web-app-capable"> <!--是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏  -->
+    <meta content="default" name="apple-mobile-web-app-status-bar-style">
+    <meta content="WOOYUN" name="apple-mobile-web-app-title">
+    <title>WOOYUN：曾经</title>
+    <link href="css/Second.css" rel="stylesheet" type="text/css">
+    <style >
+        @import url("css/style.css");
+    </style>
+</head>
+
+<body>
+<div id="box" class="box">
+    <div class="box-in"></div>
+</div>
+<script>
+    var timer  = null;
+    box.onclick = function(){
+        cancelAnimationFrame(timer);
+        timer = requestAnimationFrame(function fn(){
+            var oTop = document.body.scrollTop || document.documentElement.scrollTop;
+            if(oTop > 0){
+                document.body.scrollTop = document.documentElement.scrollTop = oTop - 50;
+                timer = requestAnimationFrame(fn);
+            }else{
+                cancelAnimationFrame(timer);
+            }
+        });
+    }
+</script>
+<box>
+<div id="top">
+    <h1>WOOYUN：曾经</h1>
+    <div id="nav">
+        <nav>
+            <span><a href="First.html">前言</a></span>
+            <span><a href="Second.html">曾经,我们巍然伫立</a></span>
+            <span><a href="Third.html">消失的光芒</a></span>
+            <span><a href="Fouth.html">回忆</a></span>
+            <span><a href="Fifth.html">仅剩的留念</a></span>
+        </nav>
+    </div>
+</div>
+<div id="main">
+    <div id="p1">
+        <p>
+            网易邮箱<br>
+            •	2010年7月14日，乌云网披露网易邮箱存在CSRF漏洞，并将这一危害等级定义为“高”，成功攻击可能导致用户数据被窃取。
+            •	2011年12月27日，乌云网称网易163邮箱在找回密码页面莫名绑定陌生的QQ号码，怀疑163邮箱账号被大面积种植后门。
+            网易公司对此表示网易邮箱被种植后门的说法属于谣言，网易当前的系统程序一切正常，后台不存在漏洞，且账号信息也没有被泄露。
+            网易还对发布谣言的行为表示遗憾和谴责。
+        </p>
+        <p>酷6网<br>
+            • 2011年2月13日，乌云网披露，酷6网某活动用户审核页面存在未授权访问漏洞，并将这一危害等级定义为“高”。
+        </p>
+        <p>
+        当当网 <br>
+            • 2011年11月，乌云网指出当当网由于设计缺陷可导致用户资料泄露。
+        </p>
+        <p>
+            广东省公安厅出入境政务服务网<br>
+            2011年12月，乌云网披露，广东省公安厅出入境政务服务网后台存在漏洞[31]，440万的用户资料外泄。据香港《东方日报》报道，广东省公安厅于29日承认漏洞事件属实，但宣称已修补有关漏洞。
+        </p>
+    </div>
+    <div id="p2">
+
+        <p>
+            支付宝<br>
+            2011年12月29日，乌云网指出支付宝1500万至2500万用户资料泄露遭到泄露，而这些数据被用于网络营销。
+            支付宝对此回应，只有账号外泄，对用户资金安全没有威胁。
+            支付宝当局同时表示，支付宝采取金融级的信息安全标准，任何人都不能从支付宝获得用户密码等私密信息。
+        </p>
+        <p>
+            中国民生银行<br>
+            2013年10月，乌云网披露中国民生银行存在漏洞，该漏洞可导致民生银行Android客户端敏感信息泄露，该网站详细描述称，“账户权限控制没做好，漏了几个地方。导致可查询任意账号的余额及进出帐情况”。
+        </p>
+        <p>
+            智联招聘<br>
+            2014年12月2日，乌云网白帽子“天地不仁以万物为刍狗”提交了一个关于“导致智联招聘86万用户简历信息泄露”的漏洞。
+            对此，智联招聘予以否认[42]。次日，乌云网又提交了一个关于“智联招聘信息泄露进入内部邮箱”的漏洞，类型为“重要敏感信息泄露”。
+        </p>
+    </div>
+    <div id="p3">
+
+        <p>
+            UC浏览器<br>
+            2014年6月28日，乌云网公开披露UC浏览器存在高危漏洞[44]，该浏览器的“神马搜索”可导致大量敏感信息泄露，涉及人人网、QQ空间以及新浪微博等。
+        </p>
+        <p>
+            百度<br>
+            2015年10月，乌云网披露包括百度地图、百度浏览器、百度音乐以及百度新闻等在内的多款百度旗下手机应用软件存在安全漏洞，这一漏洞叫WormHole，如果这些软件感染了该漏洞，用户的手机一旦连网，就有被远程控制的风险。
+        </p>
+        <p>
+            中国铁路客户服务中心<br>
+            2011年1月19日，乌云网第一次披露中国铁路客户服务中心（俗称12306网站）存在技术漏洞。
+            披露者是该网站白帽子“路人甲”，他表示，“火车票难买啊，于是打算看下铁道部的安全”，结果发现给12306提供域名注册、空间服务的第三方公司由于DNS服务器出现问题，导致12306网站的DNS记录被泄露。
+            自2011年以来，乌云共披露了12306网站40多条漏洞。2013年12月6日，新版12306网站上线仅几个小时后，乌云网便发现了漏洞，称漏洞可能导致用户信息泄露。
+            中国铁路总公司立即作出回应表示漏洞已在第一时间修复。
+            不过，时隔20多天后，乌云网再次指出，12306网站某接口CDN问题存在漏洞，会导致用户敏感信息泄漏。次日，12306回复确认该漏洞存在，并表示在第一时间修补了漏洞。
+        </p>
+
+    </div>
+    <div id="p4">
+        <p>
+            搜狗浏览器<br>
+            2013年11月5日，乌云网指出搜狗浏览器存在漏洞，中国中央电视台《24小时》、《新闻直播间》、《热点扫描》、《交易时间》等栏目详细报道了记者验证该漏洞信息的整个过程。
+        </p>
+        <p>
+            腾讯<br>
+            •	2013年11月18日，乌云网披露腾讯QQ存在漏洞，并将这一危害等级定义为“高”，该漏洞可导致QQ号泄露用户个人关系网和经历。
+            •	2015年3月5日，乌云网披露腾讯公司旗下的微信红包存在高危漏洞，黑客可以设计程序自动领取他人发放的红包。
+            不过，腾讯方面回应称，这一问题早在两个月前已发现，并在第一时间完成了修复。
+        </p>
+
+        <p>
+            携程<br>
+            2014年3月22日，乌云网披露携程系统存技术漏洞，编号为54302，发布者是乌云网的核心白帽子黑客“猪猪侠”。
+            该漏洞导致携程网安全支付日志可遍历下载，致使大量用户银行卡信息泄露。此外，携程某分站源代码包可直接下载（涉及数据库配置和支付接口信息）。
+            对此，携程立即展开技术排查，并在两小时内修复该漏洞。漏洞曝光后，原谷歌公司技术总监胡宁在新浪微博上表示，携程此次事件并不是低级技术错误，并建议让携程应立即提醒用户更换信用卡。
+            携程网漏洞被披露后，立即掀热议，成为头条新闻。很多人表示，两个小时足够“黑帽子”从中获取用户的信息。3月24日那一天，携程的股价应声大跌。
+        </p>
+    </div>
+</div>
+</box>
+
+    <h1 class="foot_title">Contact With Me</h1>
+    <div class="foot_info_main">
+        <ul>
+            <li class="github_items">
+                <a href="https://github.com/LoveLiya1314" target="_blank">GitHub</a>
+            </li>
+            <li class="google_items">
+                <a href="https://myaccount.google.com/" target="_blank">Google</a>
+            </li>
+            <li class="twitter_items">
+                <a href="https://twitter.com/LambertLiya3" target="_blank">Twitter</a>
+            </li>
+            <li class="facebook_items">
+                <a href="https://www.facebook.com/profile.php?id=100021561109523" target="_blank">FaceBook</a>
+            </li>
+            <li class="weibo_items">
+                <a href="#" target="_blank">微博</a>
+            </li>
+            <li class="zhihu_items">
+                <a href="#" target="_blank">知乎</a>
+            </li>
+            <li class="web_items">
+                <a href="http://loveliyaforever.club/" target="_blank">网站</a>
+            </li>
+            <li class="email_items">
+                <a href="mailto:lambertliya1314@gmail.com" target="_blank">邮箱</a>
+            </li>
+            <div class="clear"></div>
+        </ul>
+        <div class="qrcode_div">
+                    <span class="wx">
+                        <a class="wx_icon"></a>
+                        <img class="wx_img" src="mod/Images/scareen.png">
+                    </span>
+            <span class="github">
+                        <a class="github_icon"></a>
+                        <img class="github_img" src="mod/Images/github.gif">
+                    </span>
+            <span class="qq">
+                        <a class="qq_icon"></a>
+                        <img class="qq_img" src="mod/Images/scareen.png">
+                    </span>
+        </div>
+    </div>
+
+<div id="footer">
+    <h3>©2021 Pwoerd By
+        <a href="http://loveliyaforever.club/" title="IceEnd">殇璃雪</a>
+    </h3>
+    <footer>&copy;图片及数据均来自网络</footer>
+
+</div>
+<script language="JavaScript">
+    document.oncontextmenu=new Function("event.returnValue=false;");
+    document.onselectstart=new Function("event.returnValue=false;");
+</script>
+</body>
+</html>

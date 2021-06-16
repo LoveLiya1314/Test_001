@@ -203,14 +203,12 @@ def _draw_checkerboard(screen):
                 radius = 5
             else:
                 radius = 3
-            # pygame.draw.circle(screen, BLACK, (Start_X + SIZE * i, Start_Y + SIZE * j), radius)
             pygame.gfxdraw.aacircle(screen, Start_X + SIZE * i, Start_Y + SIZE * j, radius, BLACK_COLOR)
             pygame.gfxdraw.filled_circle(screen, Start_X + SIZE * i, Start_Y + SIZE * j, radius, BLACK_COLOR)
 
 
 # 画棋子
 def _draw_chessman(screen, point, stone_color):
-    # pygame.draw.circle(screen, stone_color, (Start_X + SIZE * point.X, Start_Y + SIZE * point.Y), Stone_Radius)
     pygame.gfxdraw.aacircle(screen, Start_X + SIZE * point.X, Start_Y + SIZE * point.Y, Stone_Radius, stone_color)
     pygame.gfxdraw.filled_circle(screen, Start_X + SIZE * point.X, Start_Y + SIZE * point.Y, Stone_Radius, stone_color)
 
@@ -267,6 +265,7 @@ class AI:
         self._checkerboard[point.Y][point.X] = self._opponent.Value
 
     def AI_drop(self):
+        # 落子算法
         point = None
         score = 0
         for i in range(self._line_points):

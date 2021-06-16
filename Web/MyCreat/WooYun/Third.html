@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="telphone=no, email=no" name="format-detection"/>    <!--忽略页面中的数字识别为电话，忽略email识别-->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+          name="viewport">
+    <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="pc, mobile" name="applicable-device">
+    <meta content="webkit" name="renderer"><!--启用360浏览器的极速模式(webkit)-->
+    <meta content="320" name="MobileOptimized"><!--微软的老式浏览器-->
+    <meta content="portrait" name="x5-orientation"><!--QQ强制竖屏-->
+    <meta content="true" name="x5-fullscreen"><!--QQ强制全屏-->
+    <meta content="no" name="msapplication-tap-highlight"/>
+    <meta content="WOOYUN" name="keywords">
+    <meta content="致敬-WOOYUN" name="description">
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="#ff3b30" name="theme-color">
+    <meta content="yes" name="apple-mobile-web-app-capable"> <!--是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏  -->
+    <meta content="default" name="apple-mobile-web-app-status-bar-style">
+    <meta content="WOOYUN" name="apple-mobile-web-app-title">
+    <title>消失的光芒</title>
+    <link href="css/Third.css" rel="stylesheet" type="text/css">
+    <style>
+        @import url("css/style.css");
+    </style>
+</head>
+
+<body>
+
+<div class="box" id="box">
+    <div class="box-in"></div>
+</div>
+<script>
+    var timer = null;
+    box.onclick = function () {
+        cancelAnimationFrame(timer);
+        timer = requestAnimationFrame(function fn() {
+            var oTop = document.body.scrollTop || document.documentElement.scrollTop;
+            if (oTop > 0) {
+                document.body.scrollTop = document.documentElement.scrollTop = oTop - 50;
+                timer = requestAnimationFrame(fn);
+            } else {
+                cancelAnimationFrame(timer);
+            }
+        });
+    }
+</script>
+
+<h1>消失的光芒</h1>
+<div id="nav">
+    <nav>
+        <span><a href="First.html">前言</a></span>
+        <span><a href="Second.html">曾经,我们巍然伫立</a></span>
+        <span><a href="Third.html">消失的光芒</a></span>
+        <span><a href="Fouth.html">回忆</a></span>
+        <span><a href="Fifth.html">仅剩的留念</a></span>
+    </nav>
+</div>
+<div id="main">
+    <table>
+        <tr>
+            <td>
+                <div id="p1">
+                    <p>
+                        乌云从来都不缺乏支持者和反对者。<br>
+                        在支持者眼中，它就是“云时代罩在信息小偷和互联网企业头上的一道警示咒”。
+                        而在反对者眼里，它却像一枚随时可能会引爆的行业炸弹，悬得越久威力越大。
+                        这个最早以猎捕大型互联网公司漏洞闻名的非营利性社区，已经迅速发展成为中国最大的白帽子聚集地和漏洞披露平台。<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;创业家&i黑马查询资料获悉，早在2014年底，乌云就已聚集白帽子7000余人，日均上报漏洞超过100个。
+                        按照其官方话述，乌云只和对用户知道安全问题持敌视态度的人产生矛盾。其中包括漠视用户信息安全的大企业、黑色产业以及靠封闭信息牟利的机构。<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大互联网公司怕它，因为名为白帽子的“漏洞猎手们”对这些大公司的挖掘总是乐此不疲，并总能从它们看似坚实的信息安全高楼上撬下松动的砖瓦。
+                        小互联网公司也怕它。对发展速度的渴求，往往让它们的安全防护系统千疮百孔，不堪一击。<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;与美国西部片过去惯用的手法——好人戴白帽子，坏人戴黑帽子类似，延伸到网络安全行业，白帽子意指正面黑客。
+                        与黑帽（恶意）黑客不同，白帽子也可识别安全漏洞，但不会恶意利用而是选择公布。
+                        他们各个身怀绝技，也如恶意黑客一样遭受质疑。<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;猎捕漏洞的行为被视为最不稳定的环节。白帽子的渗透手段是否就是破坏？他们是否会窃取信息？有无权利？是否违法？<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这一群体随乌云网一起被推上了舆论的风口浪尖，褒贬不一。他们既浪漫又神秘，但不得不受制于利益、商业和政治的非议。
+                        乌云网的停摆。只是大多数同行抑或业内资深人士均保持着“不表态、不评价、不传播”的姿势，而且所有的借题发挥都被视为炒作或者落井下石。
+                        共识是，乌云网的危机不是整个安全行业的危机，但是会推动敏感的白帽子群体甚至整个安全行业逐步走向合法和规范。<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h2>这只是一个开始！</h2><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;但在此之前，乌云网及其同仁们都将继续游离于企业与白帽子的对立和互相猜忌之间，活在大众的争议声下。
+                    </p>
+                </div>
+            </td>
+            <td>
+                <div id="p2">
+                    <p>
+                        2015年3月22日，北京朝阳大悦城。
+                        方小顿穿着格子衫、牛仔裤站在人群前面。
+                        他留着中长发蓄着胡子，敞怀的格子衫下露出半拉白色打底背心。
+                        众人注视下，他说，没有一个人能够从互联网虚拟世界逃脱，不管怎么拒绝。<br>
+                        <img src="./mod/Images/WOOYUN-fxd.jpg" width="500px" height="300px">
+                        <br><h6>*乌云网创始人方小顿（CFP供图）</h6><br>
+                        就连他也逃脱不了。
+                        尽管作为安全圈、黑客圈里响当当的人物，曾经百度公司年轻派并风云一时的安全技术团队leader，方小顿依然把自己与普通民众一同列入“网络易受侵害者”名单。
+                        网络安全从业者大多如此。当他们极力想要告诉你真相，必先博取你充分的心理认同。
+                        在他们看来，网络世界极不平衡，<h5>网络劫匪和普通人分站在信息安全天秤的两端，一方手持兵刃，藏匿于暗处；一方手无寸铁，暴露在明处。</h5>
+                        弱势一方任人宰割，胜负毫无悬念。<br>
+                        “我相信没有太多人愿意做坏的事情。”方小顿解释说，一个黑客他喜欢在网络世界里面自由穿梭，就像打游戏一样上瘾。
+                        <h2 >技术本身就让人着迷。</h2>
+                    </p>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div id="p3">
+                    <p>
+                        <h2>当时代需要时，他们勇敢地站了出来。</h2><br>
+                        <h2>当潮水退去时，他们等待新的使命。</h2><br>
+                        <h2>他们等待被抛弃或被怀念，</h2><br>
+                        <h2>等待这个世界告诉他们善恶和对错。</h2><br>
+                    </p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<h1 class="foot_title">Contact With Me</h1>
+<div class="foot_info_main">
+    <ul>
+        <li class="github_items">
+            <a href="https://github.com/LoveLiya1314" target="_blank">GitHub</a>
+        </li>
+        <li class="google_items">
+            <a href="https://myaccount.google.com/" target="_blank">Google</a>
+        </li>
+        <li class="twitter_items">
+            <a href="https://twitter.com/LambertLiya3" target="_blank">Twitter</a>
+        </li>
+        <li class="facebook_items">
+            <a href="https://www.facebook.com/profile.php?id=100021561109523" target="_blank">FaceBook</a>
+        </li>
+        <li class="weibo_items">
+            <a href="#" target="_blank">微博</a>
+        </li>
+        <li class="zhihu_items">
+            <a href="#" target="_blank">知乎</a>
+        </li>
+        <li class="web_items">
+            <a href="http://loveliyaforever.club/" target="_blank">网站</a>
+        </li>
+        <li class="email_items">
+            <a href="lambertliya1314@gmail.com" target="_blank">邮箱</a>
+        </li>
+        <div class="clear"></div>
+    </ul>
+    <div class="qrcode_div">
+                    <span class="wx">
+                        <a class="wx_icon"></a>
+                        <img class="wx_img" src="mod/Images/scareen.png">
+                    </span>
+        <span class="github">
+                        <a class="github_icon"></a>
+                        <img class="github_img" src="mod/Images/github.gif">
+                    </span>
+        <span class="qq">
+                        <a class="qq_icon"></a>
+                        <img class="qq_img" src="mod/Images/scareen.png">
+                    </span>
+    </div>
+</div>
+
+<div id="footer">
+    <h3>©2021 Pwoerd By
+        <a href="http://loveliyaforever.club/" title="IceEnd">殇璃雪</a>
+    </h3>
+    <footer>&copy;图片及数据均来自网络</footer>
+</div>
+<script language="JavaScript">
+    document.oncontextmenu = new Function("event.returnValue=false;");
+    document.onselectstart = new Function("event.returnValue=false;");
+</script>
+</body>
+</html>
