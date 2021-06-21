@@ -1,0 +1,63 @@
+<!--***********************************************************************************************
+  * Copyright ©  13:55 2021 -6 -20  殇璃墨 All rights reserved.                                      *
+  *    Licensed under the Apache License, Version 2.0 (the "License");                            *
+  *    you may not use this file except in compliance with the License.                           *
+  *    You may obtain a copy of the License at                                                    *
+  *                                                                                               *
+  *      http://www.apache.org/licenses/LICENSE-2.0                                               *
+  *                                                                                               *
+  *    Unless required by applicable law or agreed to in writing, software                        *
+  *    distributed under the License is distributed on an "AS IS" BASIS,                          *
+  *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.                   *
+  *    See the License for the specific language governing permissions and                        *
+  *    limitations under the License.                                                             *
+  * Love 殇璃雪 Forever!                                                                             *
+  *                                                                                               *
+  ***********************************************************************************************-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <head>
+        <meta charset="utf-8">
+        <script>
+            a = prompt("请输入一个数");
+            var sss = "";
+
+            function Prime() {
+                for (var i = 2; i <= parseInt(a); i++) {
+                    var isPrime = true;
+                    for (var j = 2; j <= Math.sqrt(i); j++) {
+                        if (i % j == 0) {
+                            isPrime = false;
+                            break;
+                        }
+                    }
+                    if (isPrime == true) {
+                        sss = sss + " " + i;
+                    }
+                }
+                window.document.ff.text1.value = sss;
+            }
+
+            function sss1() {
+                string0 = window.document.ff.text1.value;
+                n = string0.length;
+                string0 = string0.substring(1, n) + string0.substring(0, 1);
+                window.document.ff.text1.value = string0;
+                ss = setTimeout("sss1()", 150);
+            }
+        </script>
+    </head>
+</head>
+<body>
+<form align="center" name="ff">
+    <input onclick="Prime()" type="button" value="求素数">
+    <input onclick="sss1()" type="button" value="跑马灯"><br><br>
+    <input id="text1" size="50" type="text"><br><br>
+</form>
+<p align="center">
+    <input onclick="nologin()" type="button" value="退出登录">
+</p>
+</body>
+</html>

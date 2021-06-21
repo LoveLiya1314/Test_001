@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        li {
+            margin-left: 650px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+    <script language="javascript">
+        a = prompt("请输入一个数");
+        var sss = "";
+
+        function Prime() {
+            for (var i = 2; i <= parseInt(a); i++) {
+                var isPrime = true;
+                for (var j = 2; j <= Math.sqrt(i); j++) {
+                    if (i % j == 0) {
+                        isPrime = false;
+                        break;
+                    }
+                }
+                if (isPrime == true) {
+                    sss = sss + " " + i;
+                }
+            }
+            window.document.ff.text1.value = sss;
+        }
+
+        function sss1() {
+            string0 = window.document.ff.text1.value;
+            n = string0.length;
+            string0 = string0.substring(1, n) + string0.substring(0, 1);
+            window.document.ff.text1.value = string0;
+            ss = setTimeout("sss1()", 150);
+        }
+
+        window.onload = function () {
+            var btn = document.getElementById('btn')
+            var textarea = document.getElementById('txt')
+            var ul = document.getElementById('ul1')
+            btn.onclick = function () {
+                var li = document.createElement('li')
+                li.innerHTML = textarea.value + "  " + "<a  href='javascript:;'>删除</a>"
+                textarea.value = "";
+                textarea.focus();
+                ul.insertBefore(li, ul.children[0]);
+
+                var oUl = document.getElementById('ul1');
+                var aA = document.getElementsByTagName('a');
+                var i = 0;
+                for (i = 0; i < aA.length; i++) {
+                    aA[i].onclick = function () {
+                        oUl.removeChild(this.parentNode);
+
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<form align="center" name="ff">
+    <input onclick="Prime()" type="button" value="求素数">
+    <input onclick="sss1()" type="button" value="跑马灯"><br><br>
+    <input id="text1" size="50" type="text"><br><br>
+</form>
+<p align="center">你觉得web有趣吗?哪一部分你学的还比较好呢?<br><br>
+    <input id="txt" type="text">
+    <input id="btn" type="button" value="留言">
+<ul id="ul1">
+</ul>
+</p>
+</body>
+</html>
