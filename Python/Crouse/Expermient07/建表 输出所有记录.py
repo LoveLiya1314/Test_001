@@ -1,0 +1,21 @@
+import sqlite3
+
+conn = sqlite3.connect('stu.db')
+c = conn.cursor()
+c.execute(
+    'create table addresslist (stuno varchar(10) primary key,stuname varchar(20),telnum varchar(15),address varchar(30))')
+c.execute("insert into addresslist (stuno,stuname,telnum,address) values('001','李一','123','济南')")
+c.execute("insert into addresslist (stuno,stuname,telnum,address) values('002','张二','233','泰安')")
+c.execute("insert into addresslist (stuno,stuname,telnum,address) values('003','王三','233','济宁')")
+c.execute("insert into addresslist (stuno,stuname,telnum,address) values('004','李四','233','青岛')")
+c.execute("insert into addresslist (stuno,stuname,telnum,address) values('005','孙无','227','潍坊')")
+c.execute("insert into addresslist (stuno,stuname,telnum,address) values('006','赵六','528','菏泽')")
+c.execute("insert into addresslist (stuno,stuname,telnum,address) values('007','钱七','125','东营')")
+c.execute("insert into addresslist (stuno,stuname,telnum,address) values('008','周吧','230','莱芜')")
+c.execute("insert into addresslist (stuno,stuname,telnum,address) values('009','吴就','231','淄博')")
+c.execute("insert into addresslist (stuno,stuname,telnum,address) values('010','郑是','832','威海')")
+c.execute('select * from addresslist')
+Values = c.fetchall()
+print(Values)
+c.close()
+conn.commit()

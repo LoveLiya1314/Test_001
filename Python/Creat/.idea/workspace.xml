@@ -5,60 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b9ab2f6-61b8-49ef-a85b-e08ea4906de3" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/.vs/ConsoleApplication1/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/.vs/ConsoleApplication1/v16/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/.vs/ConsoleApplication1/v16/ipch/AutoPCH/fd89c9356d3dfbf8/CONSOLEAPPLICATION1.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/ConsoleApplication1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/ConsoleApplication1.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/ConsoleApplication1.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/ConsoleApplication1.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/ConsoleApplication1.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/prikey.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/pubkey.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/ConsoleA.823ebe24.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/ConsoleA.823ebe24.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/ConsoleA.823ebe24.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/ConsoleA.823ebe24.tlog/ConsoleApplication1.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/ConsoleA.823ebe24.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/ConsoleA.823ebe24.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/ConsoleA.823ebe24.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/ConsoleApplication1.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/ConsoleApplication1.exe.recipe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/ConsoleApplication1.ilk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/ConsoleApplication1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/ConsoleApplication1.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/ConsoleApplication1.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/ConsoleApplication1.vcxproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/libcrypto-1_1-x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/libcrypto.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/vc142.idb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/Cip/ConsoleApplication1/x64/Debug/vc142.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../233.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pygame-master/Gomoku/Gomoku.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame-master/Gomoku/Gomoku.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/.idea/copyright/.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/.idea/copyright/.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/.idea/copyright/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/.idea/rabbit.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/Fifth.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/Fifth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/First.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/First.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/Fouth.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/Fouth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/Second.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/Second.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/Third.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/Third.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/WOOYUN.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/WOOYUN.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/css/Fifth.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/css/Fifth.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/css/First.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/css/First.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/css/Forth.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/css/Forth.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/css/Second.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/css/Second.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/css/Third.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/css/Third.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/js/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/js/template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/WOOYUN-001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/WOOYUN-001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/WOOYUN-041.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/WOOYUN-041.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/WOOYUN-WD.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/WOOYUN-WD.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/WOOYUN-bg-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/WOOYUN-bg-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/WOOYUN-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/WOOYUN-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/WOOYUN-bg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/WOOYUN-bg2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/WOOYUN-bg3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/WOOYUN-bg3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/WOOYUN-bg5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/WOOYUN-bg5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/WOOYUN-fxd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/WOOYUN-fxd.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/WooYun-051.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/WooYun-051.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/dingding.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/dingding.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/dingding_qr.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/dingding_qr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/email.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/email.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/fa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/fa.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/facebook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/github.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/github.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/github.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/github_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/github_white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/google.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/google.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/head.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/head.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/qq.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/qq.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/rabbit.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/rabbit.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/rabbit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/rabbit.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/scareen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/scareen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/twitter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/weibo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/weibo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/weixin.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/weixin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/zhihu.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/zhihu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Images/美腿.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Images/美腿.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Voices/Becoming One of The People .mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Voices/Becoming One of The People .mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/mod/Voices/Liberators.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/MyCreat/WooYun/mod/Voices/Liberators.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/MyCreat/rabbit/rabbit.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +79,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -246,6 +225,7 @@
       <workItem from="1623576047526" duration="5590000" />
       <workItem from="1623666497234" duration="722000" />
       <workItem from="1623717456463" duration="3527000" />
+      <workItem from="1623985068505" duration="2225000" />
     </task>
     <servers />
   </component>
@@ -261,7 +241,7 @@
     <SUITE FILE_PATH="coverage/Creat$123.coverage" NAME="123 覆盖结果" MODIFIED="1623418192722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Creat$main__1_.coverage" NAME="main (1) 覆盖结果" MODIFIED="1623307425443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master/MineSweeping" />
     <SUITE FILE_PATH="coverage/Creat$Tetris__1_.coverage" NAME="Tetris (1) 覆盖结果" MODIFIED="1623576488010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master/Tetris" />
-    <SUITE FILE_PATH="coverage/Creat$SSS.coverage" NAME="SSS 覆盖结果" MODIFIED="1623720449498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master" />
+    <SUITE FILE_PATH="coverage/Creat$SSS.coverage" NAME="SSS 覆盖结果" MODIFIED="1623987011418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master" />
     <SUITE FILE_PATH="coverage/Creat$Start.coverage" NAME="Start 覆盖结果" MODIFIED="1623564193584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master" />
     <SUITE FILE_PATH="coverage/Creat$Gomoku.coverage" NAME="Gomoku 覆盖结果" MODIFIED="1623719056673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master/Gomoku" />
     <SUITE FILE_PATH="coverage/Creat$main__2_.coverage" NAME="main (2) 覆盖结果" MODIFIED="1623210211415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame-master/Tetris" />

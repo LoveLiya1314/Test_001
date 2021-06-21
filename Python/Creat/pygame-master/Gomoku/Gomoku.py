@@ -1,7 +1,6 @@
 """五子棋之人机对战"""
 
 import random
-import sys
 from collections import namedtuple
 
 import pygame
@@ -120,9 +119,9 @@ def main():
             if event.type == QUIT:  # 如果事件是玩家点击了右上角"X"关闭窗口
                 pygame.quit()  # 停止运行Pygame
 
-        # for event in pygame.event.get():
-        #     if event.type == QUIT:
-        #         sys.exit()
+            # for event in pygame.event.get():
+            #     if event.type == QUIT:
+            #         sys.exit()
             elif event.type == KEYDOWN:
                 if event.key == K_RETURN:
                     if winner is not None:
