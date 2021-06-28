@@ -1,3 +1,19 @@
+# ##################################################################################################
+#  Copyright ©  11:55 2021 -6 -24  Lambert All rights reserved.                                    #
+#     Licensed under the Apache License, Version 2.0 (the "License");                              #
+#     you may not use this file except in compliance with the License.                             #
+#     You may obtain a copy of the License at                                                      #
+#                                                                                                  #
+#       http://www.apache.org/licenses/LICENSE-2.0                                                 #
+#                                                                                                  #
+#     Unless required by applicable law or agreed to in writing, software                          #
+#     distributed under the License is distributed on an "AS IS" BASIS,                            #
+#     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.                     #
+#     See the License for the specific language governing permissions and                          #
+#     limitations under the License.                                                               #
+#  Love Liya Forever!                                                                              #
+# ##################################################################################################
+
 # -*- code:UTF-8 -*-
 
 '''
@@ -593,23 +609,52 @@ import hashlib
 ###===================================================================================================================================================================###
 ###===================================================================================================================================================================###
 ###===================================================================================================================================================================###
-class Person:
-    'About Persion Class'   #类文档字符串
-    姓名=""
-    属相="";
-    身高=0;
-    体重=0;
-    def __init__(self, 姓名,属相,身高,体重):
-        self.姓名 = 姓名
-        self.属相 = 属相
-        self.身高=身高
-        self.体重=体重
-    def printname(self):
-        print ("Name : ", self.姓名)
-        if self.属相=="狗":
-            print("狗年大吉!")
-    def sing(self):
-        print("回忆啊我们的青春啊")
-test=Person("233","狗",49,175)
-test.printname()
-test.sing()
+# class Person:
+#     'About Persion Class'   #类文档字符串
+#     姓名=""
+#     属相="";
+#     身高=0;
+#     体重=0;
+#     def __init__(self, 姓名,属相,身高,体重):
+#         self.姓名 = 姓名
+#         self.属相 = 属相
+#         self.身高=身高
+#         self.体重=体重
+#     def printname(self):
+#         print ("Name : ", self.姓名)
+#         if self.属相=="狗":
+#             print("狗年大吉!")
+#     def sing(self):
+#         print("回忆啊我们的青春啊")
+# test=Person("233","狗",49,175)
+# test.printname()
+# test.sing()
+
+
+
+
+
+###===================================================================================================================================================================###
+###===================================================================================================================================================================###
+###===================================================================================================================================================================###
+
+
+import time
+
+def calc(n, i=0, cols=0, diags=0, trans=0):
+    if i == n:
+        return 1
+    else:
+        rt = 0
+        for j in range(n):
+            col = 1 << j
+            diag = 1 << (i - j + n - 1)
+            tran = 1 << (i + j)
+            if (col & cols) == 0 and (diag & diags) == 0 and (tran & trans) == 0:
+                rt += calc(n, i+1, cols | col, diags | diag, trans | tran)
+        return rt
+
+if __name__ == '__main__':
+    t = time.time()
+    print(calc(13))
+    print(time.time() - t)
